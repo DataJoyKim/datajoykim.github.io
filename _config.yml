@@ -52,13 +52,20 @@ github_username: DataJoyKim
 # about_title: About Me (Use this to override about section title)
 about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+Java & Spring 기반의 5년차 백엔드 개발자로
+넷마블에서 인사시스템 자체 서비스를 개발하고 있습니다.
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+서비스가 확장함에 따라 빠르게 변화하는 요구사항들을 유연하게 대응하기 위해 MSA 전환하고 있으며,
+평가 / 근태 / 채용 / thankyou / 인증 / 파일 첨부 / 로그수집 등 각 서비스를 분리하여 개발 및 운영 할 만큼 확장해나고 있습니다.
+
+현재 조직이 복잡한 데이터를 다루는 점에서 의미는 있지만
+아직까지는 넷마블 컴퍼니에만 서비스 지원하고 있어 대량 데이터를 다룰 수 있는 기회가 적습니다.
+대량 데이터를 처리하고 싶은 성장 욕구가 있으며
+현업에서 할 수 없는 부분은 개인적으로 역량을 쌓기 위해 꾸준히 공부하고 있습니다.
+
+직접 서비스의 개발 및 운영 사이클을 반복 하면서
+여러 시행착오를 통해 확장성과 유지보수성 좋은 시스템을 개발하여 기술 부채를 줄이는 것의 중요성을 많이 느끼게되어
+항상 좋은 시스템을 위해 고민하고 조직 내 해당 문화가 정착 될 수 있도록 노력하는 개발자 입니다.
 
 content:
   - title: Projects # Title for the section
@@ -81,6 +88,15 @@ content:
           Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
           Description about the work on/with the project
+  - title: Skill
+    layout: list
+    content:
+      - Java
+      - Spring, Spring Boot, Spring Security, JPA, MyBatis, Maven
+      - Oracle, MySQL, Mssql
+      - RabbitMQ, Ehcache, Elasticsearch, Kibana, Logstash
+      - Tomcat, Nginx
+      - nGrinder, Jenkins, JIRA, Confluence, IntelliJ, eclipse
   - title: Experience
     layout: list
     content:
