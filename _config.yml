@@ -9,7 +9,7 @@ version: 2
 name: 김낙영
 title: Java & Spring 백엔드 개발자
 email: ks25ny@gmail.com
-web: https://datajoy.tistory.com
+website: https://datajoy.tistory.com
 # email_title: Email (Email title override)
 # phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
@@ -54,8 +54,7 @@ github_username: DataJoyKim
 about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
   Java & Spring 기반의 6년차 백엔드 개발자로<br>
-  넷마블에서 HR플랫폼 개발을 목표로 자체 인사시스템 개발하고 있으며,<br>
-  인프라 구축 및 백엔드 플랫폼 개발을 해오고있습니다.<br>
+  넷마블에서 HR플랫폼 구축을 목표로 인사시스템 인프라 구축 및 백엔드 플랫폼 개발을 해오고있습니다.<br>
   <br>
   시작은 로직이 DB에 존재하는 DB 중심의 개발로 시작하였지만<br>
   서비스가 확장함에 따라 유지보수성의 한계와 빠르게 변화하는 요구사항들을 유연하게 대응하기 위해<br>
