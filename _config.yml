@@ -74,6 +74,18 @@ about_content: | # this will include new lines to allow paragraphs
   항상 좋은 시스템을 위해 고민하고 조직 내 해당 문화가 정착 될 수 있도록 노력하는 개발자 입니다.<br>
   
 content:
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: 넷마블
+        sub_title: Java & Spring 백엔드 개발자
+        caption: Date Range (eg. November 2016 - present)
+        link: Link to company (optional)
+        quote: >
+          Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description of role
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -103,18 +115,6 @@ content:
       - RabbitMQ, Ehcache, Elasticsearch, Kibana, Logstash
       - Tomcat, Nginx
       - nGrinder, Jenkins, JIRA, Confluence, IntelliJ, eclipse
-  - title: Experience
-    layout: list
-    content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
   - title: Education
     layout: list
     content:
