@@ -85,13 +85,13 @@ content:
         quote: >
           Short description of the company (optional)
         description:
-          <li>eHR framework 개발 및 아키텍처 설계</li>
-          <li>채용시스템 백엔드 개발</li>
-          <li>API 관리 플랫폼 개발</li>
-          <li>thankyou 시스템 백엔드 개발 및 운영</li>
-          <li>근태시스템 백엔드 개발 및 운영</li>
-          <li>로그수집서비스 개발</li>
-          <li>평가시스템 백엔드 개발 및 운영</li>
+          * eHR framework 개발 및 아키텍처 설계
+          * 채용시스템 백엔드 개발
+          * API 관리 플랫폼 개발
+          * thankyou 시스템 백엔드 개발 및 운영
+          * 근태시스템 백엔드 개발 및 운영
+          - 로그수집서비스 개발
+          + 평가시스템 백엔드 개발 및 운영
           
   - title: Skill
     layout: list
@@ -99,12 +99,12 @@ content:
       - layout: left
         title: Back-End
         description:
-          <li>Java</li>
-          <li>Spring, Spring Boot, Spring Security, JPA, MyBatis, Maven</li>
-          <li>Oracle, MySQL, Mssql</li>
-          <li>Tomcat, Nginx</li>
-          <li>RabbitMQ, Ehcache, Elasticsearch, Kibana, Logstash</li>
-          <li>nGrinder, Jenkins, JIRA, Confluence, IntelliJ, eclipse</li>
+          * Java
+          * Spring, Spring Boot, Spring Security, JPA, MyBatis, Maven
+          * Oracle, MySQL, Mssql
+          * Tomcat, Nginx
+          * RabbitMQ, Ehcache, Elasticsearch, Kibana, Logstash
+          * nGrinder, Jenkins, JIRA, Confluence, IntelliJ, eclipse
       
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
