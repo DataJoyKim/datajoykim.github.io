@@ -85,9 +85,13 @@ content:
         quote: >
           Short description of the company (optional)
         description: >
+          - eHR framework & Infra 구축으로 2022년 넷마블 챌린지 어워드 수상
+          
           - eHR framework 개발 및 아키텍처 설계
           
           - API 관리 플랫폼 개발
+          
+          - eHR 검색엔진서비스 구축
           
           - 로그수집서비스 개발
           
