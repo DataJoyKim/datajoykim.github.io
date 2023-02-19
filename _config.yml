@@ -85,12 +85,12 @@ content:
         quote: >
           Short description of the company (optional)
         description:
-          + eHR framework 개발 및 아키텍처 설계
-          + API 관리 플랫폼 개발
-          + 로그수집서비스 개발
-          + 신규 thankyou 시스템 백엔드 개발 및 운영
-          + 자체 채용시스템 구축 백엔드 개발
-          + 자체 근태시스템 구축 백엔드 개발 및 운영
+          + eHR framework 개발 및 아키텍처 설계<br>
+          + API 관리 플랫폼 개발<br>
+          + 로그수집서비스 개발<br>
+          + 신규 thankyou 시스템 백엔드 개발 및 운영<br>
+          + 자체 채용시스템 구축 백엔드 개발<br>
+          + 자체 근태시스템 구축 백엔드 개발 및 운영<br>
           + 자체 평가시스템 구축 백엔드 개발 및 운영
           
   - title: Skill
@@ -99,11 +99,11 @@ content:
       - layout: left
         title: Back-End
         description:
-          + Java
-          + Spring, Spring Boot, Spring Security, JPA, MyBatis, Maven
-          + Oracle, MySQL, Mssql
-          + Tomcat, Nginx
-          + RabbitMQ, Ehcache, Elasticsearch, Kibana, Logstash
+          + Java<br>
+          + Spring, Spring Boot, Spring Security, JPA, MyBatis, Maven<br>
+          + Oracle, MySQL, Mssql<br>
+          + Tomcat, Nginx<br>
+          + RabbitMQ, Ehcache, Elasticsearch, Kibana, Logstash<br>
           + nGrinder, Jenkins, JIRA, Confluence, IntelliJ, eclipse
       
   - title: Projects # Title for the section
