@@ -104,13 +104,18 @@ content:
     content:
       - layout: left
         title: Back-End
-        description:
-          + Java<br>
-          + Spring, Spring Boot, Spring Security, JPA, MyBatis, Maven<br>
-          + Oracle, MySQL, Mssql<br>
-          + Tomcat, Nginx<br>
-          + RabbitMQ, Ehcache, Elasticsearch, Kibana, Logstash<br>
-          + nGrinder, Jenkins, JIRA, Confluence, IntelliJ, eclipse
+        description: >
+          - Java
+          
+          - Spring, Spring Boot, Spring Security, JPA, MyBatis, Maven
+          
+          - Oracle, MySQL, Mssql
+          
+          - Tomcat, Nginx
+          
+          - RabbitMQ, Ehcache, Elasticsearch, Kibana, Logstash
+          
+          - nGrinder, Jenkins, JIRA, Confluence, IntelliJ, eclipse
       
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
