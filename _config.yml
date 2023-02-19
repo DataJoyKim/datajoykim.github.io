@@ -81,7 +81,7 @@ content:
         quote: >
           Short description of the company (optional)
         description: >
-          - eHR framework 개발과 & HR 플랫폼을 위한 전체 Infa 및 아키텍쳐 설계<br>
+          - eHR framework 개발과 & HR 플랫폼을 위한 Infa 및 아키텍쳐 설계<br>
             빠르게 변화되는 요구사항의 유연한 대응을 위해 monolithic 구조에서 MSA로 전환<br>
             복잡도를 해소하기 위한 비즈니스 개발에 집중할 수 있도록 eHR framework와 라이브러리 제공<br>
             eHR framework & Infra 구축으로 <mark>2022년 넷마블 챌린지 어워드</mark> 수상
