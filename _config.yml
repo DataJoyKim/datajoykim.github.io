@@ -86,6 +86,20 @@ content:
           Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
           Description of role
+          
+  - title: Skill
+    layout: list
+    content:
+      - layout: left
+        title: Back-End
+        description:
+          - Java
+          - Spring, Spring Boot, Spring Security, JPA, MyBatis, Maven
+          - Oracle, MySQL, Mssql
+          - Tomcat, Nginx
+          - RabbitMQ, Ehcache, Elasticsearch, Kibana, Logstash
+          - nGrinder, Jenkins, JIRA, Confluence, IntelliJ, eclipse
+      
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -106,15 +120,6 @@ content:
           Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
           Description about the work on/with the project
-  - title: Skill
-    layout: list
-    content:
-      - Java
-      - Spring, Spring Boot, Spring Security, JPA, MyBatis, Maven
-      - Oracle, MySQL, Mssql
-      - RabbitMQ, Ehcache, Elasticsearch, Kibana, Logstash
-      - Tomcat, Nginx
-      - nGrinder, Jenkins, JIRA, Confluence, IntelliJ, eclipse
   - title: Education
     layout: list
     content:
