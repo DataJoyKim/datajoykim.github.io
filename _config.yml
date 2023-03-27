@@ -78,27 +78,30 @@ content:
           초창기 business logic을 스토어 프로시저로 개발하는 환경에서 web application으로 전환하고<br>
           발령 / 평가 / 근태 / 채용 등 business 서비스를 분리하여 점진적으로 MSA 전환하고 있습니다.<br>
           <br>
-          business 외 기능들을 정형화하여 플랫폼화를 통해 business logic에만 집중 할 수 있는 환경을 구축하였으며<br>
-          추 후에는 SaaS 형태로 외부에도 서비스하는것을 고려하며 개발하고있습니다.<br>
-          <br>
+          business 외 기능들을 정형화하여 플랫폼화를 통해 business logic에만 집중 할 수 있는 환경을 구축하고 있으며<br>
           최근에는 서비스가 분산됨에 따라 복잡도를 낮추어 운영 리소스를 줄이기 위해 노력하고있습니다.<br>
           
-          - 표준화 작업 및 eHR Framework 개발<br>
-            서비스가 분산되면서 복잡도가 높아져 운영 및 커뮤니케이션 리소스가 많이 소모되어
-            표준정의를 통해 비즈니스 
-            조직내 Web 서비스 인프라, application, 개발 프로세스, 브랜치 전략 등 표준을 정의하여
-            또한 자체 framework 개발로 일관된 제품과 
-          
-          - NHR 플랫폼 인프라 및 아키텍쳐 설계<br>
+          - NHR 플랫폼 아키텍쳐 설계 및 개발<br>
             빠르게 변화되는 요구사항의 유연한 대응을 위해 monolithic 구조에서 MSA로 전환<br>
+            business service 개발을 지원하기위한 business support 서비스<br>
+            데이터를 분석을 통해 인사이트를 제공할수있는 data platform 서비스<br>
+            서비스분산을 효율적으로 관리가능하도록 지원하는 operation 서비스 구성<br>
+            
+          - eHR Framework 아키텍쳐 설계 및 개발<br>
+            조직내 Web 서비스 인프라, application, 개발 프로세스, 브랜치 전략 등 표준을 정의하여<br>
+            또한 자체 framework 개발로 일관된 제품과 <br>
             복잡도를 해소하기 위한 비즈니스 개발에 집중할 수 있도록 eHR framework와 라이브러리 제공<br>
-            eHR framework & Infra 구축으로 <mark>2022년 넷마블 챌린지 어워드</mark> 수상
+            개발환경 개선으로 작업 리소스를 단축시켜 <mark>2022년 넷마블 챌린지 어워드</mark> 수상
           
           - eHR Console 시스템 개발<br>
             관리자(인사담당자,시스템담당자..)가 사용하는 페이지는 단순한 구조가 많습니다.<br>
             단순 반복 작업의 생산성을 높이기 위해 low code 기반의 시스템 개발
           
-          - 설정 관리 서비스 아키텍쳐 설계 및 개발
+          - 설정 관리 서비스 아키텍쳐 설계 및 개발<br>
+            여러 business 서비스에서 사용되는 설정들을 공통으로 관리하는 서비스입니다.<br>
+            Ehache로 설정데이터 캐싱을 통해 데이터 접근 시간을 단축하고<br>
+            설정데이터 갱신은 business 서비스에 영향도 최소화 하기 위해 rabbitMQ를 사용하여 설정 데이터를 요청합니다.<br>
+            설정 관리 서버 or RabbitMQ가 장애 시에도 운영가능하도록 기능을 지원하도록 개발하였습니다.<br>
           
           - eHR 검색 서비스 구축
           
