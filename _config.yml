@@ -74,12 +74,12 @@ content:
         quote: >
           Short description of the company (optional)
         description: >
+          초창기 business logic을 스토어 프로시저로 개발하는 환경에서 web application으로 전환을 시작으로br>
           빠르게 변화하는 HR의 복잡한 요구사항들을 유연하게 대응하기 위해서<br>
-          초창기 business logic을 스토어 프로시저로 개발하는 환경에서 web application으로 전환하고<br>
-          발령 / 평가 / 근태 / 채용 등 business 서비스를 분리하여 점진적으로 MSA 전환하고 있습니다.<br>
+          발령 / 평가 / 근태 / 채용 등 business 서비스를 분리하여 점진적으로 MSA로 전환하고 있습니다.<br>
           <br>
           business 외 기능들을 정형화하여 플랫폼화를 통해 business logic에만 집중 할 수 있는 환경을 구축하고 있으며<br>
-          최근에는 서비스가 분산됨에 따라 복잡도를 낮추어 운영 리소스를 줄이기 위해 노력하고있습니다.<br>
+          최근에는 서비스가 분산됨에 따라 복잡한 서비스를 효율적으로 관리하기 위한 서비스 개발하여 개발환경을 개선해나고 있습니다.<br>
           
           - NHR 플랫폼 아키텍쳐 설계 및 개발<br>
             빠르게 변화되는 요구사항의 유연한 대응을 위해 monolithic 구조에서 MSA로 전환<br>
