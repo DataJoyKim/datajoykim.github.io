@@ -74,7 +74,7 @@ content:
         quote: >
           Short description of the company (optional)
         description: >
-          초창기 business logic을 스토어 프로시저로 개발하는 환경에서 web application으로 전환을 시작으로<br>
+          business logic을 스토어 프로시저에서 web application으로 전환을 시작으로<br>
           빠르게 변화하는 HR의 복잡한 요구사항들을 유연하게 대응하기 위해서<br>
           발령 / 평가 / 근태 / 채용 등 business 서비스를 분리하여 점진적으로 MSA로 전환하고 있습니다.<br>
           <br>
