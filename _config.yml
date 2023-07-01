@@ -80,36 +80,6 @@ content:
           <br>
           business 외 기능들을 정형화하여 플랫폼화를 통해 business logic에만 집중 할 수 있는 환경을 구축하고 있으며<br>
           최근에는 분산된 서비스를 효율적으로 관리하기 위한 서비스를 개발하여 개발환경을 개선해나고 있습니다.<br>
-          
-          - eHR Framework 아키텍쳐 설계 및 개발<br>
-            조직내 Web 서비스 인프라, application, 개발 프로세스, 브랜치 전략 등 표준을 정의하여<br>
-            또한 자체 framework 개발로 일관된 제품과 <br>
-            복잡도를 해소하기 위한 비즈니스 개발에 집중할 수 있도록 eHR framework와 라이브러리 제공<br>
-            개발환경 개선으로 작업 리소스를 단축시켜 <mark>2022년 넷마블 챌린지 어워드</mark> 수상
-          
-          - eHR Console 시스템 개발<br>
-            관리자(인사담당자,시스템담당자..)가 사용하는 페이지는 단순한 구조가 많습니다.<br>
-            단순 반복 작업의 생산성을 높이기 위해 low code 기반의 시스템 개발
-          
-          - 설정 관리 서비스 아키텍쳐 설계 및 개발<br>
-            여러 business 서비스에서 사용되는 설정들을 공통으로 관리하는 서비스입니다.<br>
-            Ehache로 설정데이터 캐싱을 통해 데이터 접근 시간을 단축하고<br>
-            설정데이터 갱신은 business 서비스에 영향도 최소화 하기 위해 rabbitMQ를 사용하여 설정 데이터를 요청합니다.<br>
-            설정 관리 서버 or RabbitMQ가 장애 시에도 운영가능하도록 기능을 지원하도록 개발하였습니다.<br>
-          
-          - eHR 검색 서비스 구축<br>
-            e-HR 데이터의 검색 성능과 데이터 지표를 시각화하기 위해 <br>
-            Elastic Search, Logstash, Kibana를 활용하여 검색 서비스를 구축<br>
-          
-          - 로그수집 서비스 아키텍쳐 설계 및 개발
-          
-          - 자체 채용시스템 구축 인증 및 백엔드 플랫폼 개발 (link : https://career.netmarble.com)
-          
-          - 자체 근태시스템 구축 백엔드 개발 및 운영
-          
-          - 신규 thankyou 시스템 도메인 모델 설계 & 백엔드 개발 및 운영
-          
-          - 자체 평가시스템 구축 도메인 모델 설계 & 백엔드 개발 및 운영
       
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -123,10 +93,108 @@ content:
         quote: >
           Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
-            빠르게 변화되는 요구사항의 유연한 대응을 위해 monolithic 구조에서 MSA로 전환<br>
-            business service 개발을 지원하기위한 business support 서비스<br>
-            데이터를 분석을 통해 인사이트를 제공할수있는 data platform 서비스<br>
-            서비스분산을 효율적으로 관리가능하도록 지원하는 operation 서비스 구성<br>
+            - 빠르게 변화되는 요구사항의 유연한 대응을 위해 monolithic 구조에서 MSA로 전환<br>
+            - business service 개발을 지원하기위한 business support 서비스<br>
+            - 데이터를 분석을 통해 인사이트를 제공할수있는 data platform 서비스<br>
+            - 서비스분산을 효율적으로 관리가능하도록 지원하는 operation 서비스 구성<br>
+            
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: 넷마블
+        sub_title: eHR Framework 아키텍쳐 설계 및 개발
+        caption: 2022.12 ~ 2023.06
+        quote: >
+          Short overview of the project (optional)
+        description: | # this will include new lines to allow paragraphs
+            - 조직내 Web 서비스 인프라, application, 개발 프로세스, 브랜치 전략 등 표준을 정의하여<br>
+            - 또한 자체 framework 개발로 일관된 제품과 <br>
+            - 복잡도를 해소하기 위한 비즈니스 개발에 집중할 수 있도록 eHR framework와 라이브러리 제공<br>
+            - 개발환경 개선으로 작업 리소스를 단축시켜 <mark>2022년 넷마블 챌린지 어워드</mark> 수상
+
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: 넷마블
+        sub_title: eHR Console 시스템 개발
+        caption: 2022.12 ~ 2023.06
+        quote: >
+          Short overview of the project (optional)
+        description: | # this will include new lines to allow paragraphs
+            - 관리자(인사담당자,시스템담당자..)가 사용하는 페이지는 단순한 구조가 많습니다.<br>
+            - 단순 반복 작업의 생산성을 높이기 위해 low code 기반의 시스템 개발
+
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: 넷마블
+        sub_title: 설정 관리 서비스 아키텍쳐 설계 및 개발
+        caption: 2022.12 ~ 2023.06
+        quote: >
+          Short overview of the project (optional)
+        description: | # this will include new lines to allow paragraphs
+            - 여러 business 서비스에서 사용되는 설정들을 공통으로 관리하는 서비스입니다.<br>
+            - Ehache로 설정데이터 캐싱을 통해 데이터 접근 시간을 단축하고<br>
+            - 설정데이터 갱신은 business 서비스에 영향도 최소화 하기 위해 rabbitMQ를 사용하여 설정 데이터를 요청합니다.<br>
+            - 설정 관리 서버 or RabbitMQ가 장애 시에도 운영가능하도록 기능을 지원하도록 개발하였습니다.<br>
+            
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: 넷마블
+        sub_title: eHR 검색 서비스 구축
+        caption: 2022.12 ~ 2023.06
+        quote: >
+          Short overview of the project (optional)
+        description: | # this will include new lines to allow paragraphs
+            - e-HR 데이터의 검색 성능과 데이터 지표를 시각화하기 위해 <br>
+            - Elastic Search, Logstash, Kibana를 활용하여 검색 서비스를 구축<br>
+            
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: 넷마블
+        sub_title: 로그수집 서비스 아키텍쳐 설계 및 개발
+        caption: 2022.12 ~ 2023.06
+        quote: >
+          Short overview of the project (optional)
+        description: | # this will include new lines to allow paragraphs
+            - e-HR 데이터의 검색 성능과 데이터 지표를 시각화하기 위해 <br>
+            - Elastic Search, Logstash, Kibana를 활용하여 검색 서비스를 구축<br>
+            
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: 넷마블
+        sub_title: 자체 채용시스템 구축
+        caption: 2022.12 ~ 2023.06
+        link: https://career.netmarble.com
+        quote: >
+          Short overview of the project (optional)
+        description: | # this will include new lines to allow paragraphs
+            - 인증 및 백엔드 플랫폼 개발
+          
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: 넷마블
+        sub_title: 신규 서비스 thankyou 시스템 개발
+        caption: 2022.12 ~ 2023.06
+        quote: >
+          Short overview of the project (optional)
+        description: | # this will include new lines to allow paragraphs
+            - 도메인 모델 설계 & 백엔드 개발 및 운영
+            
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: 넷마블
+        sub_title: 자체 평가시스템 구축
+        caption: 2022.12 ~ 2023.06
+        quote: >
+          Short overview of the project (optional)
+        description: | # this will include new lines to allow paragraphs
+            - 도메인 모델 설계 & 백엔드 개발 및 운영
           
   - title: Skill
     layout: list
