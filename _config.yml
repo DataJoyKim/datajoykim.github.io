@@ -108,7 +108,7 @@ content:
             - 개발환경 개선으로 작업 리소스를 단축시켜 <mark>2022년 넷마블 챌린지 어워드</mark> 수상
 
       - layout: left
-        title: eHR Console 시스템 개발
+        title: API Manager 시스템 개발
         sub_title: 넷마블
         caption: 2022.12 ~ 2023.06
         description: | # this will include new lines to allow paragraphs
@@ -116,30 +116,33 @@ content:
             - 단순 반복 작업의 생산성을 높이기 위해 low code 기반의 시스템 개발
 
       - layout: left
-        title: 설정 관리 서비스 아키텍쳐 설계 및 개발
+        title: 설정 관리 서비스
         sub_title: 넷마블
         caption: 2022.12 ~ 2023.06
         description: | # this will include new lines to allow paragraphs
+            - 아키텍쳐 설계 및 개발
+            - Java, Spring, RabbitMQ, Mysql
             - 여러 business 서비스에서 사용되는 설정들을 공통으로 관리하는 서비스입니다.<br>
             - Ehache로 설정데이터 캐싱을 통해 데이터 접근 시간을 단축하고<br>
             - 설정데이터 갱신은 business 서비스에 영향도 최소화 하기 위해 rabbitMQ를 사용하여 설정 데이터를 요청합니다.<br>
             - 설정 관리 서버 or RabbitMQ가 장애 시에도 운영가능하도록 기능을 지원하도록 개발하였습니다.<br>
             
       - layout: left
-        title: eHR 검색 서비스 구축
+        title: eHR 검색서비스 구축
         sub_title: 넷마블
         caption: 2022.12 ~ 2023.06
         description: | # this will include new lines to allow paragraphs
+            - 아키텍쳐 설계 및 개발
+            - Elastic Search, Logstash, Kibana
             - e-HR 데이터의 검색 성능과 데이터 지표를 시각화하기 위해 <br>
-            - Elastic Search, Logstash, Kibana를 활용하여 검색 서비스를 구축<br>
             
       - layout: left
-        title: 로그수집 서비스 아키텍쳐 설계 및 개발
+        title: 로그수집서비스 개발
         sub_title: 넷마블
         caption: 2022.12 ~ 2023.06
         description: | # this will include new lines to allow paragraphs
-            - e-HR 데이터의 검색 성능과 데이터 지표를 시각화하기 위해 <br>
-            - Elastic Search, Logstash, Kibana를 활용하여 검색 서비스를 구축<br>
+            - 아키텍쳐 설계 및 개발
+            - Java, Spring Boot, RabbitMQ, Mysql
             
       - layout: left
         title: 자체 채용시스템 구축
