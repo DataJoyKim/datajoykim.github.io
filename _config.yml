@@ -85,11 +85,8 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: NHR 플랫폼 아키텍쳐 설계 및 개발
-        sub_title: 넷마블
-        caption: 2022.12 ~ 2023.06
+        sub_title: NHR 플랫폼 아키텍쳐 설계 및 개발
+        caption: 넷마블 2022.12 ~ 2023.06
         quote: >
           Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
