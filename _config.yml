@@ -81,12 +81,6 @@ content:
           business 외 기능들을 정형화하여 플랫폼화를 통해 business logic에만 집중 할 수 있는 환경을 구축하고 있으며<br>
           최근에는 분산된 서비스를 효율적으로 관리하기 위한 서비스를 개발하여 개발환경을 개선해나고 있습니다.<br>
           
-          - NHR 플랫폼 아키텍쳐 설계 및 개발<br>
-            빠르게 변화되는 요구사항의 유연한 대응을 위해 monolithic 구조에서 MSA로 전환<br>
-            business service 개발을 지원하기위한 business support 서비스<br>
-            데이터를 분석을 통해 인사이트를 제공할수있는 data platform 서비스<br>
-            서비스분산을 효율적으로 관리가능하도록 지원하는 operation 서비스 구성<br>
-            
           - eHR Framework 아키텍쳐 설계 및 개발<br>
             조직내 Web 서비스 인프라, application, 개발 프로세스, 브랜치 전략 등 표준을 정의하여<br>
             또한 자체 framework 개발로 일관된 제품과 <br>
@@ -141,20 +135,14 @@ content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        title: NHR 플랫폼 아키텍쳐 설계 및 개발
         quote: >
           Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+            빠르게 변화되는 요구사항의 유연한 대응을 위해 monolithic 구조에서 MSA로 전환<br>
+            business service 개발을 지원하기위한 business support 서비스<br>
+            데이터를 분석을 통해 인사이트를 제공할수있는 data platform 서비스<br>
+            서비스분산을 효율적으로 관리가능하도록 지원하는 operation 서비스 구성<br>
 
 # Footer
 footer_show_references: true
