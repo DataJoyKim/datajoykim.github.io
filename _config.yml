@@ -90,7 +90,7 @@ content:
       - layout: left
         title: NHR 플랫폼 구축
         sub_title: 넷마블
-        caption: 2022.12 ~ 
+        caption: 2022.12 ~ 현재
         description: | # this will include new lines to allow paragraphs
             - 아키텍쳐 설계 및 개발
             - Java, Spring, Spring Boot, RabbitMQ
@@ -103,12 +103,13 @@ content:
       - layout: left
         title: POS(Platform Operation System) 개발
         sub_title: 넷마블
-        caption: 2022.12 ~ 
+        caption: 2022.12 ~ 현재
         description: | # this will include new lines to allow paragraphs
             - Java, Spring, Mysql, Mssql, Oracle, gRPC, elasitcsearch, ehcache, RabbitMQ
             - RDBMS, RPC, Search Engine, Cache, Rest Client, Message Queue, File Stream 리소스를 콘솔에서 설정을 통해서 Web API를 생성하는 시스템 개발.
             - 단순 반복적인 개발을 지양하고 low code를 지향하는 시스템입니다.
             - 아키텍쳐 설계 및 개발
+            - 운영하면서 개선사항 취합하여 정기적으로 고도화를 하고있습니다.
             - 컴포넌트 지원
               - 설정 데이터들은 정적 자료로 API를 요청하여 요청한 서비스에 파일을 쓰고 설정파일 기반으로 ehcache 캐싱하는 컴포넌트를 개발하여 지원하였습니다.
             
