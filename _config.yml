@@ -80,6 +80,9 @@ content:
           <br>
           business 외 기능들을 정형화하여 플랫폼화를 통해 business logic에만 집중 할 수 있는 환경을 구축하고 있으며<br>
           최근에는 분산된 서비스를 효율적으로 관리하기 위한 서비스를 개발하여 개발환경을 개선해나고 있습니다.<br>
+          <br>
+          2022년도에는 인프라 구성, e-HR framework 구축, API manager 개발, 컴포넌트 개발 등<br> 
+          NHR 플랫폼의 기반을 만들고 개발환경을 개선하여 성과로 인정받아 <mark>2022년 넷마블 챌린지 어워드</mark>를 수상 하였습니다.
       
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -105,7 +108,6 @@ content:
             - 조직내 Web 서비스 인프라, application, 개발 프로세스, 브랜치 전략 등 표준을 정의하여<br>
             - 또한 자체 framework 개발로 일관된 제품과 <br>
             - 복잡도를 해소하기 위한 비즈니스 개발에 집중할 수 있도록 eHR framework와 라이브러리 제공<br>
-            - 개발환경 개선으로 작업 리소스를 단축시켜 <mark>2022년 넷마블 챌린지 어워드</mark> 수상
 
       - layout: left
         title: API Manager 시스템 개발
