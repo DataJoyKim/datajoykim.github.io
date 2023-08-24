@@ -83,7 +83,7 @@ content:
           <br>
           현재는 대부분 컴퍼니 내에서만 서비스를 하지만, 외부에 클라우드 서비스를 하는 것을 목표로 개발하고있습니다.
           <br>
-          2022년도에는 인프라 구성, e-HR framework 구축, POS(Platform Operation System) 개발, 컴포넌트 개발 등<br> 
+          2022년도에는 인프라 구성, e-HR framework 구축, API 빌더 서비스 개발, 컴포넌트 개발 등<br> 
           NHR 플랫폼의 기반을 만들고 개발 환경을 개선하여 성과로 인정받아 <mark>2022년 넷마블 챌린지 어워드</mark>를 수상 하였습니다.
       
   - title: Projects # Title for the section
@@ -103,7 +103,7 @@ content:
             - 서비스분산을 효율적으로 관리가능하도록 지원하는 operation 서비스 구성<br>
 
       - layout: left
-        title: POS(Platform Operation System) 개발
+        title: API 빌더 서비스 개발
         sub_title: 넷마블
         caption: 2022.12 ~ 현재
         description: | # this will include new lines to allow paragraphs
