@@ -54,7 +54,7 @@ github_username: DataJoyKim
 about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
   Java & Spring 기반의 7년차 백엔드 개발자로<br>
-  넷마블에서 자체 HR시스템의 인프라 구축 및 백엔드 플랫폼 개발을 하고있습니다.<br>
+  넷마블에서 HR시스템의 백엔드 플랫폼 개발을 하고있습니다.<br>
   <br>
   서비스 개발 및 운영을 반복하며 시행착오를 통해 지속가능한 소프트웨어 고민하는 개발자입니다.<br>
   문제를 정의하고 데이터 파이프라인을 설계하여 데이터 수집,가공,분석 시스템 구축하여 인사이트를 도출 하는일을 좋아합니다.<br>
