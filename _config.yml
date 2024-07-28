@@ -179,7 +179,7 @@ content:
         description: >
           - Java
           
-          - Spring, Spring Boot, Spring Security, gRPC, JPA, MyBatis, Maven
+          - Spring, Spring Boot, Spring Security, JPA, MyBatis, Maven
           
           - Oracle, MySQL, Mssql
           
