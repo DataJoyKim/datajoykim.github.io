@@ -68,12 +68,12 @@ content:
     layout: list
     content:
       - layout: left
-        title: 넷마블
+        title: 넷마블 HR시스템팀
         sub_title: Java & Spring 백엔드 개발자
         caption: 2017.04 ~ 현재
-        link: https://company.netmarble.com
+        link: 
         quote: >
-          Short description of the company (optional)
+          본사 700명 자회사 14개에 HR 플랫폼 제공하는 시스템 개발
         description: |
             - 초기 외부 eHR 솔루션을 사용하여 규모가 작은 환경에서 시작으로<br>빠르게 변화하는 HR의 복잡한 요구사항을 유연하게 대응하기 위해서 자체 서비스를 개발
             - 7개 서비스(인사운영,성과관리,역량진단,조직문화진단,근태,채용,Thankyou)의 도메인 모델링, 테이블 설계, API 개발, 시스템 아키텍처 설계
