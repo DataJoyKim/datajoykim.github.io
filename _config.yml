@@ -74,7 +74,7 @@ content:
         link: https://company.netmarble.com
         quote: >
           Short description of the company (optional)
-        description: >
+        description: |
             - 초기 외부 eHR 솔루션을 사용하여 규모가 작은 환경에서 시작으로 빠르게 변화하는 HR의 복잡한 요구사항을 유연하게 대응하기 위해서 자체 서비스를 개발
             - 인사운영시스템, 성과관리시스템, 역량진단시스템, 조직문화진단시스템, 근태시스템, 채용시스템 등 서비스의 도메인 모델링, 테이블 설계, API 개발, 시스템 아키텍처 설계
             - 분산 된 서비스들은 적은 리소스로 효율적인 개발 및 운영을 하기 위해 인증,접근제어,알람,배치,파일첨부,로그,모니터링,config 등 플랫폼서비스를 구축하여 비즈니스 서비스 개발을 지원
@@ -99,7 +99,7 @@ content:
             - 서비스분산을 효율적으로 관리가능하도록 지원하는 operation 서비스 구성<br>
 
       - layout: left
-        title: API 빌더 서비스 개발
+        title: API Builder 서비스 개발
         sub_title: 넷마블
         caption: 2022.12 ~ 현재
         description: | # this will include new lines to allow paragraphs
