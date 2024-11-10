@@ -77,9 +77,10 @@ content:
         description: |
             - 외부 eHR 솔루션을 사용하는 규모가 작은 환경에서 시작으로,<br>빠르게 변화하는 HR의 복잡한 요구사항을 유연하게 대응하기 위해서 자체 시스템을 개발
             - 7개 서비스(인사운영,성과관리,역량진단,조직문화진단,근태,채용,Thankyou)의 도메인 모델링, 테이블 설계, API 개발, 시스템 아키텍처 설계
-            - 분산 된 서비스들을 적은 리소스로 효율적인 개발 및 운영을 하기 위해,<br>플랫폼 서비스(인증, 접근제어, 알람, 배치, 파일첨부, 로그수집, 모니터링, config)를 개발하여 비즈니스 개발을 지원
+            - 분산 된 서비스들을 적은 리소스로 효율적인 개발/운영을 하기 위해,<br>플랫폼 서비스(인증, 접근제어, 알람, 배치, 파일관리, 로깅, 모니터링, config)를 개발하여 비즈니스 개발을 지원
             - 공통 기능을 모듈화하여 eHR Framework를 구축함으로써, 개발자들이 비즈니스 로직 개발에 집중할 수 있는 환경 구축
             - 관리자 페이지와 같은 정형화된 요구사항에 생산성을 효율화 하기 위해 Admin Builder를 개발하여<br>WEB 콘솔에서 설정 기반으로 API와 UI를 생성하여 관리자 페이지를 제공하는 환경 구축
+            - 팀 동료 누구나 인프라 구축하고 운영 할 수 있도록 프로세스를 수립하고 자동화하여 웹 콘솔 페이지에서 
             - 플랫폼의 기반을 만들고 개발 환경을 개선한 성과를 인정받아 <mark>2022년 넷마블 챌린지 어워드</mark>를 수상
       
   - title: Projects # Title for the section
@@ -97,6 +98,7 @@ content:
             - business service 개발을 지원하기위한 business support 서비스<br>
             - 데이터를 분석을 통해 인사이트를 제공할수있는 data platform 서비스<br>
             - 서비스분산을 효율적으로 관리가능하도록 지원하는 operation 서비스 구성<br>
+            - 모니터링 강화 (상태체크를 위한 health check application 개발
 
       - layout: left
         title: Admin Builder 서비스 개발
@@ -104,7 +106,7 @@ content:
         caption: 2022.12 ~ 현재
         description: | # this will include new lines to allow paragraphs
             - Java, Spring, Mysql, Mssql, Oracle, gRPC, elasitcsearch, ehcache, RabbitMQ
-            - RDBMS, RPC, Search Engine, Cache, Rest Client, Message Queue, File Stream 리소스를 콘솔에서 설정을 통해서 Web API를 생성하는 시스템 개발.
+            - 데이터소스 RDBMS, 검색엔진, Cache, Rest API, Message Queue, File Stream 를 콘솔에서 설정을 통해서 API를 생성하는 시스템 개발.
             - 단순 반복적인 개발을 지양하고 low code를 지향하는 시스템입니다.
             - 아키텍쳐 설계 및 개발
             - 운영하면서 개선사항 취합하여 정기적으로 고도화를 하고있습니다.
@@ -130,12 +132,12 @@ content:
             - e-HR 데이터의 검색 성능과 데이터 지표를 시각화하기 위해 <br>
             
       - layout: left
-        title: 로그수집 서비스 개발
+        title: 중앙 로깅 시스템 구축
         sub_title: 넷마블
         caption: 2022.12 ~ 2023.06
         description: | # this will include new lines to allow paragraphs
             - 아키텍쳐 설계 및 개발
-            - Java, Spring Boot, RabbitMQ, Mysql
+            - Java, Spring Boot, RabbitMQ, Logstash, Filebeat, Mysql
             
       - layout: left
         title: 자체 채용시스템 개발
@@ -146,7 +148,7 @@ content:
             - 인증 및 백엔드 플랫폼 개발
           
       - layout: left
-        title: 신규 서비스 thankyou 시스템 개발
+        title: 신규 thankyou 서비스 개발
         sub_title: 넷마블
         caption: 2022.12 ~ 2023.06
         description: | # this will include new lines to allow paragraphs
