@@ -176,7 +176,7 @@ content:
         description: >
           - Java
           
-          - Spring, Spring Boot, Spring Security, JPA, MyBatis, Maven
+          - Spring, Spring Boot, Spring Security, JPA, MyBatis
           
           - Oracle, MySQL, Mssql
           
@@ -184,7 +184,7 @@ content:
           
           - RabbitMQ, Ehcache, Elasticsearch, Kibana, Logstash, Filebeat
           
-          - pinpoint, nGrinder, Jenkins, JIRA, Confluence, IntelliJ, eclipse
+          - pinpoint, nGrinder, Jenkins, gitlab, JIRA, Confluence, IntelliJ, eclipse
 
 # Footer
 footer_show_references: true
