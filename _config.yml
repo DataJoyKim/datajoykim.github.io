@@ -176,7 +176,7 @@ content:
         description: >
           - Java
           
-          - Spring MVC, Spring Boot, Spring Security, JPA, MyBatis
+          - Spring MVC, Spring Boot, Spring Security, Spring Quartz, JPA, MyBatis
           
           - Oracle, MySQL, Mssql
           
