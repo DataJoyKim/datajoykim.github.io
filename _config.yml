@@ -91,22 +91,24 @@ content:
         sub_title: 넷마블
         caption: 2025.01 ~ 현재
         description: | # this will include new lines to allow paragraphs
-            - Spring Quartz를 활용한 Admin Builder에 스케줄링 기능을 추가하고 LLM API를 연동하여 자동화 환경 구축
+            - Admin Builder 서비스에 Spring Quartz를 활용한 스케줄링 기능 및 LLM API를 연동 기능을 추가
             
       - layout: left
-        title: NHR 플랫폼 안정화 및 모니터링 강화
+        title: NHR 플랫폼 안정화 작업
         sub_title: 넷마블
-        caption: 2024.01 ~ 2024.12
+        caption: 2024.03 ~ 2024.12
         description: | # this will include new lines to allow paragraphs
-            - business service 개발을 지원하기위한 business support 서비스<br>
-            - 데이터를 분석을 통해 인사이트를 제공할수있는 data platform 서비스<br>
-            - 서비스분산을 효율적으로 관리가능하도록 지원하는 operation 서비스 구성<br>
-            - 모니터링 강화 (상태체크를 위한 health check application 개발
+            - 플랫폼이 성장하면서 복잡도 상승으로 인해 운영 및 관리 리소스 증가와 장애 발생 시 대응이 늦어 개선작업 진행
+            - 서비스 구간 장애 탐지하기 위한 Spring Boot로 Health Check application 개발
+            - circuit breaker를 적용하여 장애 전파를 최소화
+            - traceId를 발급하고 전파하여 이를 모든 서비스에서 로깅하고 중앙 로깅시스템에서 수집하여 application 로그를 한번에 확인할 수있도록 개선
+            - 분산된 서버를 내부와 외부로만 구분하여 통합작업하여 관리 리소스 최소화
+            - 자체 구축한 CI/CD Jenkins 배포 방식에서 넷마블 플랫폼에서 지원하는 Gitlab으로 이전하여 관리 리소스 최소화
 
       - layout: left
         title: Admin Builder 서비스 개발
         sub_title: 넷마블
-        caption: 2022.12 ~ 2024.01
+        caption: 2023.06 ~ 2024.01
         description: | # this will include new lines to allow paragraphs
             - Java, Spring, Mysql, Mssql, Oracle, gRPC, elasitcsearch, ehcache, RabbitMQ
             - 데이터소스 RDBMS, 검색엔진, Cache, Rest API, Message Queue, File Stream 를 콘솔에서 설정을 통해서 API를 생성하는 시스템 개발.
