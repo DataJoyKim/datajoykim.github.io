@@ -103,7 +103,7 @@ content:
             - circuit breaker를 적용하여 장애 전파를 최소화
             - traceId를 발급하고 전파하여 이를 모든 서비스에서 로깅하고 중앙 로깅시스템에서 수집하여 application 로그를 한번에 확인할 수있도록 개선
             - 분산된 서버를 내부와 외부로만 구분하여 통합작업하여 관리 리소스 최소화
-            - 자체 구축한 CI/CD Jenkins 배포 방식에서 넷마블 플랫폼에서 지원하는 Gitlab으로 이전하여 관리 리소스 최소화
+            - 자체 구축한 Jenkins의 CI/CD 환경에서 넷마블 플랫폼에서 지원하는 Gitlab으로 CI/CD 환경을 구축하여 관리 리소스 최소화
 
       - layout: left
         title: Admin Builder 서비스 개발
