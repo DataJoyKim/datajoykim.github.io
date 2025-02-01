@@ -185,7 +185,7 @@ content:
             - Tomcat, Java, Spring, Oracle
             
       - layout: left
-        title: 신규 근태시스템 개발/운영
+        title: 신규 근태시스템 운영
         sub_title: 넷마블
         caption: 2017.12 ~ 2020.03
         description: | # this will include new lines to allow paragraphs
