@@ -122,8 +122,8 @@ content:
         caption: 2022.12 ~ 2024.01
         description: | # this will include new lines to allow paragraphs
             - 개발의 생산성을 높이기위한 NHR 플랫폼을 구축.
-            - 물리적 구조는 언제든 변경 될 수 있어 개념적 아키텍쳐 설계를 진행
-            - business service의 공통 개발을 지원하는 common service와 운영하는 operation service, 플랫폼을 관리하는 admin service로 구성하여 설계
+            - 유연한 시스템 구조를 위해 물리적 구조와 개념적 구로를 분리하여 아키텍쳐 설계
+            - business service의 공통 개발을 지원하는 common service, 운영하는 operation service, 플랫폼을 관리하는 admin service로 구성하여 설계
             - 자체 Oracle Virtual Box으로 구성한 분산된 개발 환경을 폐기하고 IDC 넷마블 클라우드 서버로 신규 통합 개발 환경(dev / qa / stage 환경) 구축
             - e-HR Framework 구축
             - Jenkins를 활용한 CI/CD 구축
