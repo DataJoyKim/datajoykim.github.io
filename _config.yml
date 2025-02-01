@@ -101,7 +101,7 @@ content:
             - 플랫폼이 성장하면서 복잡도 상승으로 인해 운영 및 관리 리소스 증가와 장애 발생 시 대응이 늦어 개선작업 진행
             - 서비스 구간 장애 탐지하기 위한 Spring Boot로 Health Check application 개발
             - circuit breaker를 적용하여 장애 전파를 최소화
-            - traceId를 발급하고 전파하여 이를 모든 서비스에서 로깅하고 중앙 로깅시스템에서 수집하여 application 로그를 한번에 확인할 수있도록 개선
+            - trace id를 발급하고 전파하여 모든 서비스에서 로깅을 통해 장애를 추적하기 쉽도록 개선
             - 분산된 서버를 내부와 외부로만 구분하여 통합작업하여 관리 리소스 최소화
             - 자체 구축한 Jenkins의 CI/CD 환경에서 넷마블 플랫폼에서 지원하는 Gitlab으로 CI/CD 환경을 구축하여 관리 리소스 최소화
 
@@ -129,7 +129,7 @@ content:
             - Jenkins를 활용한 CI/CD 구축
             - 팀내 표준 개발 프로세스 구축
             - 인프라 효율적 관리를 위한 WEB Console 개발
-            - 넷마블 플랫폼에서 지원하는 Terraform을 활용하여 서버 및 application의 설치,설정,실행,배포를 프로비저닝하여 개발자가 인프라 관리 및 운영에 대한 신경쓰지않고 비즈니스에만 집중할수있는 환경 구축
+            - 넷마블 플랫폼에서 지원하는 Terraform을 활용하여 서버 및 application의 설치,설정,실행,배포를 프로비저닝하여<br>개발자가 인프라 관리 및 운영에 대한 신경쓰지않고 비즈니스에만 집중할수있는 환경 구축
             - SSO를 통한 인증 로직 표준화
             
       - layout: left
@@ -139,6 +139,14 @@ content:
         description: | # this will include new lines to allow paragraphs
             - 아키텍쳐 설계 및 개발
             - Java, Spring Boot, RabbitMQ, Logstash, Filebeat, Mysql
+            
+      - layout: left
+        title: 파일관리서비스 개발
+        sub_title: 넷마블
+        caption: 2022.12 ~ 2023.06
+        description: | # this will include new lines to allow paragraphs
+            - 아키텍쳐 설계 및 개발
+            - Java, Spring, Mysql
             
       - layout: left
         title: 신규 채용시스템 개발/운영
