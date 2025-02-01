@@ -78,7 +78,7 @@ content:
         description: |
             - 외부 eHR 솔루션을 사용하는 규모가 작은 환경에서 시작으로,<br>빠르게 변화하는 HR의 복잡한 요구사항을 유연하게 대응하기 위해 자체 시스템을 개발
             - business service(근태시스템,업적평가시스템,역량진단시스템,채용시스템,칭찬시스템)의 도메인 모델링 및 아키텍처 설계, application 개발/운영
-            - 분산 된 business service를 적은 리소스로 효율적인 개발/운영을 하기 위해,<br>platform service(인증, 접근제어, 알람, 배치, 파일관리, 로깅, 모니터링, 검색엔진, config)를 개발 및 구축하여 business service 개발을 지원
+            - 분산 된 business service를 적은 리소스로 효율적인 개발/운영을 하기 위해,<br>platform service(인증, 접근제어, 알람, 배치, 파일관리, 로깅, 모니터링, 검색엔진, config)를 개발 및 구축
             - 공통 기능을 모듈화하여 eHR Framework를 구축함으로써, 개발자가 비즈니스 로직 개발에 집중할 수 있는 환경 구축
             - 관리자 페이지와 같은 정형화된 요구사항에 생산성을 효율화 하기 위해 Admin Builder를 개발하여<br>WEB 콘솔에서 설정 기반으로 API와 UI를 생성하여 관리자 페이지를 제공하는 환경 구축
             - 플랫폼의 기반을 만들고 개발 환경을 개선한 성과를 인정받아 <mark>2022년 넷마블 챌린지 어워드</mark>를 수상
@@ -106,20 +106,20 @@ content:
             - 자체 구축한 Jenkins의 CI/CD 환경에서 넷마블 플랫폼에서 지원하는 Gitlab으로 CI/CD 환경을 구축하여 관리 리소스 최소화
 
       - layout: left
-        title: Admin Builder 서비스 개발
+        title: Admin Builder 개발
         sub_title: 넷마블
         caption: 2023.06 ~ 2024.01
         description: | # this will include new lines to allow paragraphs
-            - Java, Spring, Mysql, Mssql, Oracle, gRPC, elasitcsearch, ehcache, RabbitMQ
-            - 데이터소스 RDBMS, 검색엔진, Cache, Rest API, Message Queue, File Stream 를 콘솔에서 설정을 통해서 API를 생성하는 시스템 개발.
-            - 단순 반복적인 개발을 지양하고 low code를 지향하는 시스템입니다.
-            - 아키텍쳐 설계 및 개발
-            - 운영하면서 개선사항 취합하여 정기적으로 고도화를 하고있습니다.
+            - 정형화 되고 단순 반복적인 관리자 페이지 개발의 생산성을 높이기 위해<br>WEB 콘솔에서 설정으로 API와 view를 생성하는 application 개발
+            - SQL, 엔티티, Rest Client, 파일관리, 알람전송 기능들을 조합하고 인증과 권한을 설정하여 API 개발,<br>원하는 view 템플릿을 선택하고 설정하면 화면 구성 가능
+            - 아키텍쳐 설계 및 application 개발 수행
+            - 단순 CRUD 화면을 개발하는데 5분 이내 작업 가능. 복잡한 구조도 커스덤 개발 가능하도록 확장성있게 설계
+            - Tomcat, Java, Spring, Mysql, JSP
             
       - layout: left
         title: NHR 플랫폼 구축
         sub_title: 넷마블
-        caption: 2022.12 ~ 2024.01
+        caption: 2023.01 ~ 2024.03
         description: | # this will include new lines to allow paragraphs
             - 개발의 생산성을 높이기위한 NHR 플랫폼을 구축.
             - 유연한 시스템 구조를 위해 물리적 구조와 개념적 구로를 분리하여 아키텍쳐 설계
@@ -150,7 +150,7 @@ content:
             - 간편로그인 기능 여러 OAuth 서비스를 통합 
             - 외부용 시스템 아키텍처 설계
             - 비즈니스 개발자의 원할한 개발을 위한 지원
-            - Nginx, Tomcat, Java, Spring, Oracle
+            - Nginx, Tomcat, Java, Spring, Mysql
           
       - layout: left
         title: 신규 칭찬시스템 개발/운영
