@@ -131,7 +131,7 @@ content:
             - Jenkins를 활용한 CI/CD 구축
             - 팀내 표준 개발 프로세스 구축
             - 인프라 효율적 관리를 위한 WEB Console 개발
-            - 넷마블 플랫폼에서 지원하는 Terraform을 활용하여 서버 및 application의 설치, 설정, 실행 자동화 프로비저닝
+            - 넷마블 플랫폼에서 지원하는 Terraform을 활용하여 서버 및 application의 설치,설정,실행,배포를 프로비저닝하여 개발자가 인프라 관리 및 운영에 대한 신경쓰지않고 비즈니스에만 집중할수있는 환경 구축
             
       - layout: left
         title: 중앙 로깅 시스템 구축
