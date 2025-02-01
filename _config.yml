@@ -124,7 +124,6 @@ content:
             - 개발의 생산성을 높이기위한 NHR 플랫폼을 구축.
             - 물리적 구조는 언제든 변경 될 수 있어 개념적 아키텍쳐 설계를 진행
             - 자체 Oracle Virtual Box으로 구성한 분산된 개발 환경을 폐기하고 IDC 넷마블 클라우드 서버로 신규 통합 개발 환경(dev / qa / stage 환경) 구축
-            - 빠르게 변화되는 요구사항의 유연한 대응을 위해 monolithic 구조에서 MSA로 전환
             - business service 개발을 지원하기위한 business support 서비스
             - 데이터를 분석을 통해 인사이트를 제공할수있는 data platform 서비스
             - 서비스분산을 효율적으로 관리가능하도록 지원하는 operation 서비스 구성
