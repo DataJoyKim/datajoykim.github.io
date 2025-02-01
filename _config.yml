@@ -99,7 +99,7 @@ content:
         caption: 2024.03 ~ 2024.12
         description: | # this will include new lines to allow paragraphs
             - 플랫폼이 성장하면서 복잡도 상승으로 인해 운영 및 관리 리소스 증가와 장애 발생 시 대응이 늦어 개선작업 진행
-            - 서비스 구간 장애 탐지하기 위한 Spring Boot로 Health Check application 개발
+            - 서비스 구간 장애 탐지하기 위한 Health Check application 개발
             - circuit breaker를 적용하여 장애 전파를 최소화
             - trace id를 발급하고 전파하여 모든 서비스에서 로깅을 통해 장애를 추적하기 쉽도록 개선
             - 분산된 서버를 내부와 외부로만 구분하여 통합작업하여 관리 리소스 최소화
