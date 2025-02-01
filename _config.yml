@@ -132,6 +132,7 @@ content:
             - 팀내 표준 개발 프로세스 구축
             - 인프라 효율적 관리를 위한 WEB Console 개발
             - 넷마블 플랫폼에서 지원하는 Terraform을 활용하여 서버 및 application의 설치,설정,실행,배포를 프로비저닝하여 개발자가 인프라 관리 및 운영에 대한 신경쓰지않고 비즈니스에만 집중할수있는 환경 구축
+            - SSO를 통한 인증 로직 표준화
             
       - layout: left
         title: 중앙 로깅 시스템 구축
@@ -142,7 +143,7 @@ content:
             - Java, Spring Boot, RabbitMQ, Logstash, Filebeat, Mysql
             
       - layout: left
-        title: 신규 채용시스템 개발
+        title: 신규 채용시스템 개발/운영
         sub_title: 넷마블
         caption: 2022.12 ~ 2023.06
         link: https://career.netmarble.com
@@ -151,49 +152,53 @@ content:
             - 간편로그인 기능 여러 OAuth 서비스를 통합 
             - 외부용 시스템 아키텍처 설계
             - 비즈니스 개발자의 원할한 개발을 위한 지원
+            - Nginx, Tomcat, Java, Spring, Oracle
           
       - layout: left
-        title: 신규 칭찬시스템 개발
+        title: 신규 칭찬시스템 개발/운영
         sub_title: 넷마블
-        caption: 2022.12 ~ 2023.06
+        caption: 2021.09 ~ 2021.12
         description: | # this will include new lines to allow paragraphs
             - 요구사항을 분석하여 도메인 모델링 및 설계, 백엔드 개발 진행
             - 지속적으로 증가하는 칭찬 글의 검색성능 향상을 위한 검색 파이프라인 설계와 ElasticSearch로 검색엔진 구축.
             - 랭킹과 사용자가 많이 접근하는 홈화면의 칭찬 글 내역의 성능향상을 위해 Ehcache로 캐싱.
-            - Java, Spring, Ehcache, Oracle, ElasticSearch, Logstash, Kibana
+            - Tomcat, Java, Spring, Ehcache, Oracle, ElasticSearch, Logstash, Kibana
             
       - layout: left
-        title: 신규 역량진단시스템 개발
+        title: 신규 평가시스템 개발/운영
         sub_title: 넷마블
-        caption: 2022.12 ~ 2023.06
-        description: | # this will include new lines to allow paragraphs
-            - 도메인 모델링 및 아키텍처 설계하여 백엔드 application 개발 진행
-            - Java, Spring, Oracle
-            
-      - layout: left
-        title: 신규 업적평가시스템 개발
-        sub_title: 넷마블
-        caption: 2022.12 ~ 2023.06
+        caption: 2019.12 ~ 2024.06
         description: | # this will include new lines to allow paragraphs
             - 도메인 모델링 및 아키텍처 설계하여 백엔드 application 개발 진행
             - 비즈니스 로직의 복잡성을 낮추기 위해 도메인 주도 설계를 기반으로 아키텍처 설계
-            - 목표수립, 상시피드백, 개인업적평가, 조직평가, 종합피드백, 수시평가, 리더적합도평가로 모듈을 분리하여 의존성을 낮추고 공통 로직은 AOP를 통해 처리하는 구조로 개발
+            - 역량진단, 목표수립, 상시피드백, 개인업적평가, 조직평가, 종합피드백, 수시평가, 리더적합도평가로 모듈을 분리하여 의존성을 낮추고 공통 로직은 AOP를 통해 처리하는 구조로 개발
             - 비즈니스 로직은 도메인 객체에 구현하여 Service Layer에서 오케스트레이션하여 도메인 객체를 보호하는 구조로 개발
             - 비즈니스 로직과 요구사항으로 추출한 시스템 정책 문서를 일치시켜 이해관계자와의 커뮤니케이션 비용을 줄임
             - 도메인 중심 설계의 개발 전체 과정을 팀 내 개발 프로세스로 표준화하여 시스템의 복잡성을 낮추면서 생산성을 높임
-            - pinpoint와 nGrinder를 도입하여 성능테스트 환경 구축
-            - Java, Spring, Oracle
+            - pinpoint와 nGrinder를 도입하여 성능테스트 환경 개선
+            - Tomcat, Java, Spring, Oracle
             
       - layout: left
-        title: 신규 근태시스템 개발
+        title: 신규 근태시스템 개발/운영
         sub_title: 넷마블
-        caption: 2017.12 ~ 2018.03
+        caption: 2017.12 ~ 2020.03
         description: | # this will include new lines to allow paragraphs
-            - 선택적근로 도입에 따른 신규 근태시스템 개발
-            - 시스템 아키텍처 설계 및 표준 모델 수립
+            - 선택적근로 정책 도입에 따른 API 개발 진행
+            - 정책 변경/추가에 따른 비즈니스 로직 개선 작업 진행
+            - Artillery로 성능테스트를 통한 Tomcat Thread Pool와 DBCP 최적화
             - 배포 자동화 script 개발
-            - 성능테스트를 통한 Tomcat Thread와 DBCP 최적화
-            - Java, Spring, Oracle
+            - Tomcat, Java, Spring, Oracle
+            
+      - layout: left
+        title: e-HR 운영 및 유지보수
+        sub_title: 넷마블
+        caption: 2017.06 ~ 2018.12
+        description: | # this will include new lines to allow paragraphs
+            - 외부 e-HR 솔루션 Framework으로 요구사항에 따른 개발 진행
+            - 연장근무 신청/결재/관리 개발
+            - 퇴근교통비 신청/결재/관리 개발
+            - 의료비 신청/결재/관리 개발
+            - 전자결재 모듈 개발
           
   - title: Skill
     layout: list
@@ -203,7 +208,7 @@ content:
         description: >
           - Java
           
-          - Spring MVC, Spring Boot, Spring Security, Spring Quartz, JPA, MyBatis
+          - Spring MVC, Spring Boot, Spring Security, JWT, Spring Quartz, JPA, MyBatis
           
           - Oracle, MySQL, Mssql
           
