@@ -76,16 +76,23 @@ content:
         quote: >
           직원수 7,400명, 계열사 14개에 HR 플랫폼 제공하는 시스템 개발
         description: |
-            - 외부 eHR 솔루션을 사용하는 규모가 작은 환경에서 시작으로,<br>빠르게 변화하는 HR의 복잡한 요구사항을 유연하게 대응하기 위해서 자체 시스템을 개발
-            - 7개 서비스(인사운영,성과관리,역량진단,조직문화진단,근태,채용,Thankyou)의 도메인 모델링, 테이블 설계, API 개발, 시스템 아키텍처 설계
-            - 분산 된 서비스들을 적은 리소스로 효율적인 개발/운영을 하기 위해,<br>플랫폼 서비스(인증, 접근제어, 알람, 배치, 파일관리, 로깅, 모니터링, config)를 개발하여 비즈니스 개발을 지원
-            - 공통 기능을 모듈화하여 eHR Framework를 구축함으로써, 개발자들이 비즈니스 로직 개발에 집중할 수 있는 환경 구축
+            - 외부 eHR 솔루션을 사용하는 규모가 작은 환경에서 시작으로,<br>빠르게 변화하는 HR의 복잡한 요구사항을 유연하게 대응하기 위해 자체 시스템을 개발
+            - business service(근태시스템,업적평가시스템,역량진단시스템,채용시스템,칭찬시스템)의 시스템 아키텍처 설계, 도메인 모델링, 테이블 설계, API 개발
+            - 분산 된 business service를 적은 리소스로 효율적인 개발/운영을 하기 위해,<br>platform service(인증, 접근제어, 알람, 배치, 파일관리, 로깅, 모니터링, config)를 개발 및 구축하여 business service 개발을 지원
+            - 공통 기능을 모듈화하여 eHR Framework를 구축함으로써, 개발자가 비즈니스 로직 개발에 집중할 수 있는 환경 구축
             - 관리자 페이지와 같은 정형화된 요구사항에 생산성을 효율화 하기 위해 Admin Builder를 개발하여<br>WEB 콘솔에서 설정 기반으로 API와 UI를 생성하여 관리자 페이지를 제공하는 환경 구축
             - 플랫폼의 기반을 만들고 개발 환경을 개선한 성과를 인정받아 <mark>2022년 넷마블 챌린지 어워드</mark>를 수상
       
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: left
+        title: 업무자동화서비스 구축
+        sub_title: 넷마블
+        caption: 2025.01 ~ 현재
+        description: | # this will include new lines to allow paragraphs
+            - Spring Quartz를 활용한 Admin Builder에 스케줄링 기능을 추가하고 LLM API를 연동하여 자동화 환경 구축
+            
       - layout: left
         title: NHR 플랫폼 안정화 및 모니터링 강화
         sub_title: 넷마블
@@ -122,6 +129,7 @@ content:
             - 서비스분산을 효율적으로 관리가능하도록 지원하는 operation 서비스 구성
             - e-HR Framework 구축
             - Jenkins를 활용한 CI/CD 구축
+            - 팀내 표준 개발 프로세스 구축
             
       - layout: left
         title: 중앙 로깅 시스템 구축
@@ -138,32 +146,42 @@ content:
         link: https://career.netmarble.com
         description: | # this will include new lines to allow paragraphs
             - 인증 및 백엔드 플랫폼 개발
+            - 외부용 시스템 아키텍처 설계
           
       - layout: left
         title: 신규 칭찬시스템 개발
         sub_title: 넷마블
         caption: 2022.12 ~ 2023.06
         description: | # this will include new lines to allow paragraphs
-            - 요구사항을 분석하여 도메인 모델링 및 설계, 아키텍처 설계, 백엔드 개발 및 운영
-            - 지속적으로 증가하는 칭찬 글의 검색성능 향상을 위한 Elasticsearch 도입하여 검색엔진 구축.
+            - 요구사항을 분석하여 도메인 모델링 및 설계, 백엔드 개발 진행
+            - 지속적으로 증가하는 칭찬 글의 검색성능 향상을 위한 검색 파이프라인 설계와 ElasticSearch로 검색엔진 구축.
             - 랭킹과 사용자가 많이 접근하는 홈화면의 칭찬 글 내역의 성능향상을 위해 Ehcache로 캐싱.
             - Java, Spring, Ehcache, Oracle, ElasticSearch, Logstash, Kibana
             
       - layout: left
-        title: 신규 평가시스템 개발
+        title: 신규 역량진단시스템 개발
         sub_title: 넷마블
         caption: 2022.12 ~ 2023.06
         description: | # this will include new lines to allow paragraphs
-            - 요구사항을 분석하여 도메인 모델링 및 설계, 아키텍처 설계, 백엔드 개발 및 운영
+            - 요구사항을 분석하여 도메인 모델링 및 설계, 백엔드 개발 진행
+            - Java, Spring, Oracle
+            
+      - layout: left
+        title: 신규 업적평가시스템 개발
+        sub_title: 넷마블
+        caption: 2022.12 ~ 2023.06
+        description: | # this will include new lines to allow paragraphs
+            - 요구사항을 분석하여 도메인 모델링 및 설계, 백엔드 개발 진행
             - Java, Spring, Oracle
             
       - layout: left
         title: 신규 근태시스템 개발
         sub_title: 넷마블
-        caption: 2022.12 ~ 2023.06
+        caption: 2019.01 ~ 2019.12
         description: | # this will include new lines to allow paragraphs
-            - 요구사항을 분석하여 도메인 모델링 및 설계, 아키텍처 설계, 백엔드 개발 및 운영
+            - 요구사항을 분석하여 도메인 모델링 및 설계, 백엔드 개발 진행
             - pinpoint와 nGrinder를 도입하여 성능테스트 환경 구축
+            - 시스템 아키텍처 설계 및 표준 모델 수립
             - Java, Spring, Oracle
           
   - title: Skill
