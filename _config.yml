@@ -77,8 +77,8 @@ content:
           직원수 7,400명, 계열사 14개에 HR 플랫폼 제공하는 시스템 개발
         description: |
             - 외부 eHR 솔루션을 사용하는 규모가 작은 환경에서 시작으로,<br>빠르게 변화하는 HR의 복잡한 요구사항을 유연하게 대응하기 위해 자체 시스템을 개발
-            - business service(근태시스템,업적평가시스템,역량진단시스템,채용시스템,칭찬시스템)의 시스템 아키텍처 설계, 도메인 모델링, 테이블 설계, API 개발
-            - 분산 된 business service를 적은 리소스로 효율적인 개발/운영을 하기 위해,<br>platform service(인증, 접근제어, 알람, 배치, 파일관리, 로깅, 모니터링, config)를 개발 및 구축하여 business service 개발을 지원
+            - business service(근태시스템,업적평가시스템,역량진단시스템,채용시스템,칭찬시스템)의 시스템 아키텍처 설계, 도메인 모델링, 테이블 설계, application 개발 
+            - 분산 된 business service를 적은 리소스로 효율적인 개발/운영을 하기 위해,<br>platform service(인증, 접근제어, 알람, 배치, 파일관리, 로깅, 모니터링, 검색엔진, config)를 개발 및 구축하여 business service 개발을 지원
             - 공통 기능을 모듈화하여 eHR Framework를 구축함으로써, 개발자가 비즈니스 로직 개발에 집중할 수 있는 환경 구축
             - 관리자 페이지와 같은 정형화된 요구사항에 생산성을 효율화 하기 위해 Admin Builder를 개발하여<br>WEB 콘솔에서 설정 기반으로 API와 UI를 생성하여 관리자 페이지를 제공하는 환경 구축
             - 플랫폼의 기반을 만들고 개발 환경을 개선한 성과를 인정받아 <mark>2022년 넷마블 챌린지 어워드</mark>를 수상
@@ -122,9 +122,8 @@ content:
         caption: 2022.12 ~ 2024.01
         description: | # this will include new lines to allow paragraphs
             - 개발의 생산성을 높이기위한 NHR 플랫폼을 구축.
-            - 아키텍쳐 설계 및 개발
-            - Java, Spring, Spring Boot, RabbitMQ
-            - 개발 환경 구축 (dev / qa / stage 환경 구축)
+            - 물리적 구조는 언제든 변경 될 수 있어 개념적 아키텍쳐 설계를 진행
+            - 신규 개발 환경 구축 (dev / qa / stage 환경 구축)
             - 빠르게 변화되는 요구사항의 유연한 대응을 위해 monolithic 구조에서 MSA로 전환
             - business service 개발을 지원하기위한 business support 서비스
             - 데이터를 분석을 통해 인사이트를 제공할수있는 data platform 서비스
@@ -165,7 +164,8 @@ content:
         sub_title: 넷마블
         caption: 2022.12 ~ 2023.06
         description: | # this will include new lines to allow paragraphs
-            - 요구사항을 분석하여 도메인 모델링 및 설계, 백엔드 개발 진행
+            - 도메인 모델링 및 아키텍처 설계하여 백엔드 application 개발 진행
+            - 역량진단, 피
             - Java, Spring, Oracle
             
       - layout: left
@@ -173,7 +173,10 @@ content:
         sub_title: 넷마블
         caption: 2022.12 ~ 2023.06
         description: | # this will include new lines to allow paragraphs
-            - 요구사항을 분석하여 도메인 모델링 및 설계, 백엔드 개발 진행
+            - 도메인 모델링 및 아키텍처 설계하여 백엔드 application 개발 진행
+            - 복잡도가 높은 도메인으로 비즈니스 로직의 복잡성을 낮추기 위해 도메인 주도 설계를 기반으로 아키텍처 설계
+            - 목표수립, 상시피드백, 개인업적평가, 조직평가, 종합피드백, 수시평가, 리더적합도평가 다양한 모듈의 
+            - 기본적으로 Layered Architecture 따르며 비즈니스 로직은 도메인 객체에 위치 시키고 도메인 객체를 보호하는 구조로 설계
             - Java, Spring, Oracle
             
       - layout: left
