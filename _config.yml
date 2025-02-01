@@ -123,10 +123,8 @@ content:
         description: | # this will include new lines to allow paragraphs
             - 개발의 생산성을 높이기위한 NHR 플랫폼을 구축.
             - 물리적 구조는 언제든 변경 될 수 있어 개념적 아키텍쳐 설계를 진행
+            - business service의 공통 개발을 지원하는 common service와 운영하는 operation service, 플랫폼을 관리하는 admin service로 구성하여 설계
             - 자체 Oracle Virtual Box으로 구성한 분산된 개발 환경을 폐기하고 IDC 넷마블 클라우드 서버로 신규 통합 개발 환경(dev / qa / stage 환경) 구축
-            - business service 개발을 지원하기위한 business support 서비스
-            - 데이터를 분석을 통해 인사이트를 제공할수있는 data platform 서비스
-            - 서비스분산을 효율적으로 관리가능하도록 지원하는 operation 서비스 구성
             - e-HR Framework 구축
             - Jenkins를 활용한 CI/CD 구축
             - 팀내 표준 개발 프로세스 구축
