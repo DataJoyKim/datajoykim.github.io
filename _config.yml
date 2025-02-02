@@ -111,17 +111,18 @@ content:
         caption: 2023.06 ~ 2024.01
         description: | # this will include new lines to allow paragraphs
             - 정형화 되고 단순 반복적인 관리자 페이지 개발의 생산성을 높이기 위해<br>WEB 콘솔에서 설정으로 API와 view를 생성하는 application 개발
-            - SQL, 엔티티, Rest Client, 파일관리, 알람전송 기능들을 조합하고 인증과 권한을 설정하여 API 개발,<br>원하는 view 템플릿을 선택하고 설정하면 화면 구성 가능
+            - SQL, 엔티티, Rest Client, 파일관리, 알람전송 기능들을 조합하고 인증과 권한을 설정하여 API 생성,<br>원하는 view 템플릿을 선택하고 설정하면 화면 구성 가능
             - 아키텍쳐 설계 및 application 개발 수행
-            - 단순 CRUD 화면을 개발하는데 5분 이내 작업 가능. 복잡한 구조도 커스덤 개발 가능하도록 확장성있게 설계
-            - Tomcat, Java, Spring, Mysql, JSP
+            - 권한 구조를 tree 구조로 설계하여 조직별 권한, 직책별 권한, 역할별 권한 등 다양하고 복잡한 관리자 권한을 유연하게 대응가능하게 개발
+            - 단순 CRUD 화면을 개발하는데 5분 이내 작업 가능. 복잡한 구조도 커스텀 개발 가능하도록 설계
+            - 사용기술 - Tomcat, Java, Spring, Mysql, JSP
             
       - layout: left
         title: NHR 플랫폼 구축
         sub_title: 넷마블
         caption: 2023.01 ~ 2024.03
         description: | # this will include new lines to allow paragraphs
-            - 개발의 생산성을 높이기위한 NHR 플랫폼을 구축.
+            - 개발자가 비즈니스 개발에 집중하고 개발 생산성을 높이는 환경을 구축하기 위한 NHR 플랫폼을 구축.
             - 유연한 시스템 구조를 위해 물리적 구조와 개념적 구로를 분리하여 아키텍쳐 설계
             - business service의 공통 개발을 지원하는 common service, 운영하는 operation service, 플랫폼을 관리하는 admin service로 구성하여 설계
             - 자체 Oracle Virtual Box으로 구성한 분산된 개발 환경을 폐기하고 IDC 넷마블 클라우드 서버로 신규 통합 개발 환경(dev / qa / stage 환경) 구축
