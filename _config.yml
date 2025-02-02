@@ -123,7 +123,7 @@ content:
         sub_title: 넷마블
         caption: 2023.01 ~ 2024.03
         description: | # this will include new lines to allow paragraphs
-            - NHR 플랫폼 구축을 통해 개발자가 비즈니스 로직 개발에만 집중하고 적은 리소스로 시스템을 운영 할 수 있는 환경 구축
+            - 개발자가 비즈니스 로직 개발에만 집중하고 적은 리소스로 시스템을 운영 할 수 있는 환경 구축
             - 유연한 시스템 구조를 위해 물리적 구조와 개념적 구조를 분리하여 아키텍쳐 설계
               - business service의 공통 개발을 지원하는 common service(인증, 접근제어, 알람, 파일관리, 검색엔진, config)
               - 플랫폼을 운영하는 operation service(로깅, 모니터링, 배치, 성능테스트, CI/CD)
