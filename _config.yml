@@ -122,17 +122,16 @@ content:
         sub_title: 넷마블
         caption: 2023.01 ~ 2024.03
         description: | # this will include new lines to allow paragraphs
-            - NHR 플랫폼 구축을 통해 개발자가 비즈니스 로직 개발에만 집중하고 적은 리소스로 시스템을 운영 할 수 있는 환경을 구축
+            - NHR 플랫폼 구축을 통해 개발자가 비즈니스 로직 개발에만 집중하고 적은 리소스로 시스템을 운영 할 수 있는 환경 구축
             - 유연한 시스템 구조를 위해 물리적 구조와 개념적 구조를 분리하여 아키텍쳐 설계
             - business service의 공통 개발을 지원하는 common service, 운영하는 operation service, 플랫폼을 관리하는 admin service로 구성하여 설계
             - 플랫폼 common service의 인증서비스, 알람서비스, 접근제어서비스, config 서비스를 개발하여 API로 business service에 제공함으로써<br>비즈니스 외 서비스에 대해 의존성을 낮추고 중앙에서 관리될 수 있도록 개발
             - application의 비즈니스 로직 외 플랫폼 요소는 컴포넌트화 하여 e-HR Framework로 구축
             - SSO를 통한 인증 로직 표준화
-            - 팀 내 표준 개발 프로세스 구축
             - Jenkins를 활용한 CI/CD 환경 구축
-            - 자체 Oracle Virtual Box으로 구성한 분산된 개발 환경을 폐기하고 넷마블 클라우드 서버로 신규 통합 개발 환경(dev / qa / stage 환경) 구축
-            - 넷마블 플랫폼에서 지원하는 Terraform을 활용하여 서버 및 application의 설치,설정,실행,배포를 프로비저닝하여<br>개발자가 인프라 관리 및 운영에 대한 신경쓰지않고 비즈니스에만 집중할수있는 환경 구축
-            - 인프라 효율적 관리를 위한 WEB Console 개발
+            - 자체 Oracle Virtual Box으로 구성한 분산된 개발 환경에서 넷마블 클라우드 서버로 신규 dev/qa/stage 환경 구축
+            - 넷마블 플랫폼에서 지원하는 Terraform을 활용하여 서버 및 application의 설치/설정/실행 을 프로비저닝하여<br>개발자가 인프라에 대한 신경쓰지않고 비즈니스 개발에만 집중 할 수 있는 환경 구축
+            - 인프라 효율적 관리를 위한 WEB 페이지 개발
                         
       - layout: left
         title: 파일관리서비스 개발
@@ -140,7 +139,7 @@ content:
         caption: 2022.12 ~ 2023.06
         description: | # this will include new lines to allow paragraphs
             - 아키텍쳐 설계 및 개발
-            - Java, Spring, Mysql
+            - 사용기술 - Java, Spring, Mysql
          
       - layout: left
         title: 중앙 로깅 시스템 구축
@@ -164,7 +163,7 @@ content:
             - 간편로그인 기능 여러 OAuth 서비스를 통합 
             - 외부용 시스템 아키텍처 설계
             - 비즈니스 개발자의 원할한 개발을 위한 지원
-            - Nginx, Tomcat, Java, Spring, Mysql
+            - 사용기술 - Nginx, Tomcat, Java, Spring, Mysql
           
       - layout: left
         title: 신규 칭찬시스템 개발/운영
@@ -174,7 +173,7 @@ content:
             - 요구사항을 분석하여 도메인 모델링 및 설계, 백엔드 개발 진행
             - 지속적으로 증가하는 칭찬 글의 검색성능 향상을 위한 검색 파이프라인 설계와 ElasticSearch로 검색엔진 구축.
             - 랭킹과 사용자가 많이 접근하는 홈화면의 칭찬 글 내역의 성능향상을 위해 Ehcache로 캐싱.
-            - Tomcat, Java, Spring, Ehcache, Oracle, ElasticSearch, Logstash, Kibana
+            - 사용기술 - Tomcat, Java, Spring, Ehcache, Oracle, ElasticSearch, Logstash, Kibana
             
       - layout: left
         title: 신규 평가시스템 개발/운영
@@ -188,7 +187,7 @@ content:
             - 비즈니스 로직과 요구사항으로 추출한 시스템 정책 문서를 일치시켜 이해관계자와의 커뮤니케이션 비용을 줄임
             - 도메인 중심 설계의 개발 전체 과정을 팀 내 개발 프로세스로 표준화하여 시스템의 복잡성을 낮추면서 생산성을 높임
             - pinpoint와 nGrinder를 도입하여 성능테스트 환경 개선
-            - Tomcat, Java, Spring, Oracle
+            - 사용기술 - Tomcat, Java, Spring, Oracle
             
       - layout: left
         title: 신규 근태시스템 개발/운영
@@ -199,7 +198,7 @@ content:
             - 정책 변경/추가에 따른 비즈니스 로직 개선 작업 진행
             - Artillery로 성능테스트를 통한 Tomcat Thread Pool와 DBCP 최적화
             - 배포 자동화 script 개발
-            - Tomcat, Java, Spring, Oracle
+            - 사용기술 - Tomcat, Java, Spring, Oracle
             
       - layout: left
         title: e-HR 운영 및 유지보수
