@@ -124,14 +124,16 @@ content:
         description: | # this will include new lines to allow paragraphs
             - NHR 플랫폼 구축을 통해 개발자가 비즈니스 로직 개발에만 집중하고 적은 리소스로 시스템을 운영 할 수 있는 환경 구축
             - 유연한 시스템 구조를 위해 물리적 구조와 개념적 구조를 분리하여 아키텍쳐 설계
-            - business service의 공통 개발을 지원하는 common service, 운영하는 operation service, 플랫폼을 관리하는 admin service로 구성하여 설계
+              - business service을 기준으로 공통 개발을 지원하는 common service, 운영하는 operation service, 플랫폼을 관리하는 admin service로 구성하여 설계
             - 인증서비스, 알람서비스, 접근제어서비스, config 서비스를 개발하여 API로 business service에 제공함으로써<br>비즈니스 외 서비스에 대해 의존성을 낮추고 중앙에서 관리될 수 있도록 개발
             - application의 비즈니스 로직 외 플랫폼 요소는 컴포넌트화 하여 e-HR Framework로 구축
             - SSO를 통한 인증 로직 표준화
+            - 팀 내 개발 프로세스 표준화
             - Jenkins를 활용한 CI/CD 환경 구축
-              - 자체 Oracle Virtual Box으로 구성한 분산된 개발 환경에서 넷마블 클라우드 서버로 신규 dev/qa/stage 환경 구축
-              - 넷마블 플랫폼에서 지원하는 Terraform을 활용하여 서버 및 application의 설치/설정/실행 을 프로비저닝하여<br>개발자의 인프라에 대한 인지적 부하 감소
+            - 개발자의 인프라 운영 및 관리에 대한 인지적 부하 감소
+              - 넷마블 플랫폼에서 지원하는 Terraform을 활용하여 서버 및 application의 설치/설정/실행을 프로비저닝
               - 인프라 효율적 관리를 위한 WEB 페이지 개발
+              - 자체 Oracle Virtual Box으로 구성한 분산된 개발 환경에서 넷마블 클라우드 서버로 신규 dev/qa/stage 환경 구축
                         
       - layout: left
         title: 파일관리서비스 개발
@@ -182,8 +184,8 @@ content:
         description: | # this will include new lines to allow paragraphs
             - 도메인 모델링 및 아키텍처 설계하여 백엔드 application 개발 진행
             - 비즈니스 로직의 복잡성을 낮추기 위해 도메인 주도 설계를 기반으로 아키텍처 설계
-            - 역량진단, 목표수립, 상시피드백, 개인업적평가, 조직평가, 종합피드백, 수시평가, 리더적합도평가로 모듈을 분리하여 의존성을 낮추고 공통 로직은 AOP를 통해 처리하는 구조로 개발
-            - 비즈니스 로직은 도메인 객체에 구현하여 Service Layer에서 오케스트레이션하여 도메인 객체를 보호하는 구조로 개발
+              - 역량진단, 목표수립, 상시피드백, 개인업적평가, 조직평가, 종합피드백, 수시평가, 리더적합도평가로 모듈을 분리하여 의존성을 낮추고 공통 로직은 AOP를 통해 처리하는 구조로 개발
+              - 비즈니스 로직은 도메인 객체에 구현하여 Service Layer에서 오케스트레이션하여 도메인 객체를 보호하는 구조로 개발
             - 비즈니스 로직과 요구사항으로 추출한 시스템 정책 문서를 일치시켜 이해관계자와의 커뮤니케이션 비용을 줄임
             - 도메인 중심 설계의 개발 전체 과정을 팀 내 개발 프로세스로 표준화하여 시스템의 복잡성을 낮추면서 생산성을 높임
             - pinpoint와 nGrinder를 도입하여 성능테스트 환경 개선
