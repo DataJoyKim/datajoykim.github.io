@@ -125,7 +125,9 @@ content:
         description: | # this will include new lines to allow paragraphs
             - NHR 플랫폼 구축을 통해 개발자가 비즈니스 로직 개발에만 집중하고 적은 리소스로 시스템을 운영 할 수 있는 환경 구축
             - 유연한 시스템 구조를 위해 물리적 구조와 개념적 구조를 분리하여 아키텍쳐 설계
-              - business service을 기준으로 공통 개발을 지원하는 common service, 운영하는 operation service, 플랫폼을 관리하는 admin service로 구성하여 설계
+              - business service의 공통 개발을 지원하는 common service(인증, 접근제어, 알람, 파일관리, 검색엔진, config) 구성
+              - 플랫폼을 운영하는 operation service(로깅, 모니터링, 배치, 성능테스트, CI/CD) 구성
+              - 플랫폼을 관리하는 admin service(Admin Builder)로 구성
             - 인증서비스, 알람서비스, 접근제어서비스, config 서비스를 개발하여 API로 business service에 제공함으로써<br>비즈니스 외 서비스에 대해 의존성을 낮추고 중앙에서 관리될 수 있도록 개발
             - application의 비즈니스 로직 외 플랫폼 요소는 컴포넌트화 하여 e-HR Framework로 구축
             - SSO를 통한 인증 로직 표준화
