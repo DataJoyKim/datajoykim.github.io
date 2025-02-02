@@ -164,10 +164,9 @@ content:
         caption: 2022.12 ~ 2023.06
         link: https://career.netmarble.com
         description: | # this will include new lines to allow paragraphs
-            - 인증 및 백엔드 플랫폼 개발
-            - 간편로그인 기능 여러 OAuth 서비스를 통합 
+            - 백엔드 플랫폼 개발과 비즈니스 개발자의 원할한 개발을 위한 지원을 수행
+            - 인증 및 간편로그인 기능 여러 OAuth 서비스를 통합 
             - 외부용 시스템 아키텍처 설계
-            - 비즈니스 개발자의 원할한 개발을 위한 지원
             - 사용기술: Nginx, Tomcat, Java, Spring, Mysql
           
       - layout: left
