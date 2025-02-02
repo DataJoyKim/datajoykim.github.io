@@ -132,15 +132,7 @@ content:
             - 인프라 효율적 관리를 위한 WEB Console 개발
             - 넷마블 플랫폼에서 지원하는 Terraform을 활용하여 서버 및 application의 설치,설정,실행,배포를 프로비저닝하여<br>개발자가 인프라 관리 및 운영에 대한 신경쓰지않고 비즈니스에만 집중할수있는 환경 구축
             - SSO를 통한 인증 로직 표준화
-            
-      - layout: left
-        title: 중앙 로깅 시스템 구축
-        sub_title: 넷마블
-        caption: 2022.12 ~ 2023.06
-        description: | # this will include new lines to allow paragraphs
-            - 아키텍쳐 설계 및 개발
-            - Java, Spring Boot, RabbitMQ, Logstash, Filebeat, Mysql
-            
+                        
       - layout: left
         title: 파일관리서비스 개발
         sub_title: 넷마블
@@ -148,6 +140,18 @@ content:
         description: | # this will include new lines to allow paragraphs
             - 아키텍쳐 설계 및 개발
             - Java, Spring, Mysql
+         
+      - layout: left
+        title: 중앙 로깅 시스템 구축
+        sub_title: 넷마블
+        caption: 2021.04 ~ 2021.12
+        description: | # this will include new lines to allow paragraphs
+            - 분산 된 application에서 발생한 로그를 중앙에서 수집 관리하여 문제 분석 시간을 단축 시키고<br>로그를 통해 사용자 패턴을 분석하여 더 나은 서비스를 제공하는 환경 구축
+            - 아키텍쳐 설계 및 개발 수행
+            - Back-End 로그는 일반적으로 Filebeat를 통해 수집하고 application 자체에서 전송해야하는 경우 컴포넌트를 제공하여 RabbitMQ로 로그를 전송하여 수집
+            - Front-End 로그는 Spring Boot로 API 서버 구축하여 API를 통해 수집
+            - Logstash로 수집하여 Mysql에 적재하고 로그 검색 할 수있는 WEB 페이지 제공
+            - 사용기술 - Java, Spring Boot, RabbitMQ, Logstash, Filebeat, Mysql
             
       - layout: left
         title: 신규 채용시스템 개발/운영
