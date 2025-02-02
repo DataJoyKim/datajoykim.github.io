@@ -129,9 +129,9 @@ content:
             - application의 비즈니스 로직 외 플랫폼 요소는 컴포넌트화 하여 e-HR Framework로 구축
             - SSO를 통한 인증 로직 표준화
             - Jenkins를 활용한 CI/CD 환경 구축
-            - 자체 Oracle Virtual Box으로 구성한 분산된 개발 환경에서 넷마블 클라우드 서버로 신규 dev/qa/stage 환경 구축
-            - 넷마블 플랫폼에서 지원하는 Terraform을 활용하여 서버 및 application의 설치/설정/실행 을 프로비저닝하여<br>개발자의 인프라에 대한 인지적 부하 감소
-            - 인프라 효율적 관리를 위한 WEB 페이지 개발
+              - 자체 Oracle Virtual Box으로 구성한 분산된 개발 환경에서 넷마블 클라우드 서버로 신규 dev/qa/stage 환경 구축
+              - 넷마블 플랫폼에서 지원하는 Terraform을 활용하여 서버 및 application의 설치/설정/실행 을 프로비저닝하여<br>개발자의 인프라에 대한 인지적 부하 감소
+              - 인프라 효율적 관리를 위한 WEB 페이지 개발
                         
       - layout: left
         title: 파일관리서비스 개발
