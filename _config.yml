@@ -94,7 +94,7 @@ content:
             - Admin Builder에 Spring Quartz를 활용한 스케줄링 기능 및 LLM API를 연동 기능을 추가
             
       - layout: left
-        title: NHR플랫폼 안정화작업
+        title: NHR플랫폼 안정화 작업
         sub_title: 넷마블
         caption: 2024.03 ~ 2024.12
         description: | # this will include new lines to allow paragraphs
