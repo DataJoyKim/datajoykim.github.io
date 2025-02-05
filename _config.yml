@@ -144,6 +144,11 @@ content:
         caption: 2022.12 ~ 2023.06
         description: | # this will include new lines to allow paragraphs
             - 아키텍쳐 설계 및 개발
+            - 기존 데이터베이스에 파일을 저장하고있어 장애 시 비즈니스에 영향이 발생하여 파일시스템을 구축
+            - 파일은 파일시스템에 저장하고 메타데이터를 DB에서 관리하는 구조로 설계
+            - 파일을 관리할수있도록 파일관리서비스 application을 개발하여 API를 제공
+            - 서버는 고가용성을 고려하여 이중화구조로 구성하고 NFS로 파일 동기화
+            - business service에서 파일서버로 파일을 전송 할 수 있도록 컴포넌트를 지원하여 인터페이스만 사용하면 관리할수있도록 제공 
             - 사용기술: Java, Spring, Mysql
          
       - layout: left
