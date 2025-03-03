@@ -109,7 +109,7 @@ content:
         sub_title: 넷마블
         caption: 2023.06 ~ 2024.01
         description: | # this will include new lines to allow paragraphs
-            - 정형화 되고 단순 반복적인 관리자 페이지 개발 생산성을 높이고자 WEB 콘솔에서 API와 view를 생성하는 application 개발
+            - 관리자 페이지 개발 생산성을 높이고자 WEB 콘솔에서 API와 view를 생성하는 application 개발
               - 데이터소스를 설정하고 Sql 쿼리, 엔티티, Rest Client, 파일첨부, 알람전송 기능들을 조합 후 인증과 권한을 설정하여 API 생성
               - 원하는 화면 템플릿을 선택하고 데이터 바인딩 설정을 통해 view 생성
             - 권한은 조직별 권한, 직책별 권한, 역할별 권한 등 다양하고 복잡한 관리자 권한을 유연하게 대응 가능하도록 개발
