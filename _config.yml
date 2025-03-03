@@ -173,7 +173,7 @@ content:
             - 사용기술: Nginx, Tomcat, Java, Spring, Mysql
           
       - layout: left
-        title: 신규 칭찬시스템 개발/운영
+        title: 신규 칭찬시스템 개발 및 운영
         sub_title: 넷마블
         caption: 2021.09 ~ 2021.12
         description: | # this will include new lines to allow paragraphs
@@ -183,7 +183,7 @@ content:
             - 사용기술: Tomcat, Java, Spring, Ehcache, Oracle, ElasticSearch, Logstash, Kibana
             
       - layout: left
-        title: 신규 평가시스템 개발/운영
+        title: 신규 평가시스템 개발 및 운영
         sub_title: 넷마블
         caption: 2019.12 ~ 2024.06
         description: | # this will include new lines to allow paragraphs
@@ -198,7 +198,7 @@ content:
             - 사용기술: Tomcat, Java, Spring, Oracle
             
       - layout: left
-        title: 신규 근태시스템 개발/운영
+        title: 신규 근태시스템 개발 및 운영
         sub_title: 넷마블
         caption: 2017.12 ~ 2020.03
         description: | # this will include new lines to allow paragraphs
