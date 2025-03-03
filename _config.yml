@@ -128,7 +128,6 @@ content:
               - 플랫폼을 관리하는 admin service (Admin Builder)
             - 분산된 business service의 중앙 관리하기 위해 인증서비스, 알람서비스, 접근제어서비스, config서비스 개발
             - application의 비즈니스 로직 외 플랫폼 요소는 컴포넌트화 하여 e-HR Framework로 구축
-            - sso를 통한 인증 로직 표준화
             - 팀 내 개발 프로세스 표준화
             - Jenkins를 활용한 CI/CD 환경 구축
             - 개발자의 인프라 운영 및 관리에 대한 인지적 부하 감소
