@@ -97,24 +97,23 @@ content:
         sub_title: 넷마블
         caption: 2024.03 ~ 2024.12
         description: | # this will include new lines to allow paragraphs
-            - 플랫폼이 성장하면서 복잡도 상승으로 인해 운영 및 관리 리소스 증가와 장애 발생 시 대응이 늦어 개선작업 진행
+            - 플랫폼 복잡도 상승으로 운영 및 관리 리소스 증가와 장애 발생 시 대응 시간을 줄이는 작업 진행
             - 서비스 구간 장애 탐지하기 위한 Health Check application 개발
             - 모든 서비스에 circuit breaker를 적용하여 장애 전파를 최소화
             - trace id를 전파하여 모든 서비스에서 로깅을 통해 장애를 추적하기 쉽도록 개선
-            - 분산된 서버를 통합 작업하여 관리 리소스 최소화
-            - 인증서비스, 알람서비스, 접근제어서비스, config 서비스를 Admin Builder로 통합하여 관리 리소스 최소화
-            - 자체 구축한 Jenkins의 CI/CD 환경에서 넷마블 플랫폼에서 지원하는 Gitlab으로 CI/CD 환경을 구축하여 관리 리소스 최소화
+            - 분산된 서버를 통합하고 규모가 작은 서비스는 Admin Builder로 통합하여 관리 리소스 최소화
+            - 넷마블 플랫폼에서 지원하는 Gitlab으로 CI/CD 환경을 구축하여 관리 리소스 최소화
 
       - layout: left
         title: Admin Builder 개발
         sub_title: 넷마블
         caption: 2023.06 ~ 2024.01
         description: | # this will include new lines to allow paragraphs
-            - 정형화 되고 단순 반복적인 관리자 페이지 개발의 생산성을 높이기 위해<br>WEB 콘솔에서 설정으로 API와 view를 생성하는 application 개발
-            - SQL, 엔티티, Rest Client, 파일관리, 알람전송 기능들을 조합하고 인증과 권한을 설정하여 API 생성,<br>원하는 view 템플릿을 선택하고 설정하면 화면 구성 가능
-            - 아키텍쳐 설계 및 application 개발 수행
-            - 권한 구조를 tree 구조로 설계하여 조직별 권한, 직책별 권한, 역할별 권한 등 다양하고 복잡한 관리자 권한을 유연하게 대응가능하게 개발
-            - 단순 CRUD 화면을 개발하는데 5분 이내 작업 가능. 복잡한 구조도 커스텀 개발 가능하도록 설계
+            - 정형화 되고 단순 반복적인 관리자 페이지 개발 생산성을 높이고자 WEB 콘솔에서 API와 view를 생성하는 application 개발
+              - 데이터소스를 설정하고 Sql 쿼리, 엔티티, Rest Client, 파일첨부, 알람전송 기능들을 조합 후 인증과 권한을 설정하여 API 생성
+              - 원하는 화면 템플릿을 선택하고 데이터 바인딩 설정을 통해 view 생성
+            - 권한은 조직별 권한, 직책별 권한, 역할별 권한 등 다양하고 복잡한 관리자 권한을 유연하게 대응 가능하도록 개발
+            - 단순 CRUD 화면 개발 시 5분 이내 작업 가능. 복잡한 구조는 커스텀 개발 가능.
             - 사용기술: Tomcat, Java, Spring, Mysql, JSP
             
       - layout: left
@@ -135,7 +134,7 @@ content:
             - 개발자의 인프라 운영 및 관리에 대한 인지적 부하 감소
               - 넷마블 플랫폼에서 지원하는 Terraform을 활용하여 서버 및 application의 설치/설정/실행을 프로비저닝
               - 자체 Oracle Virtual Box으로 구성한 분산된 개발 환경에서 넷마블 클라우드로 신규 dev/qa/stage 환경 구축
-              - 인프라 효율적 관리를 위한 WEB 페이지 개발
+              - 분산된 인프라 관리 페이지를 설정한 서비스별로 인프라 운영 관리할 수 있도록 WEB 페이지 개발
                         
       - layout: left
         title: 파일관리서비스 개발
