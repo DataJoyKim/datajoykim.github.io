@@ -123,9 +123,9 @@ content:
         description: | # this will include new lines to allow paragraphs
             - 개발자가 비즈니스 로직 개발에만 집중하고 적은 리소스로 시스템을 운영 할 수 있는 환경 구축
             - 비즈니스 개발을 지원하는 NHR플랫폼 아키텍쳐 설계
-              - business service의 공통 개발을 지원하는 common service(인증, 접근제어, 알람, 파일관리, 검색엔진, config)
-              - 플랫폼을 운영하는 operation service(로깅, 모니터링, 배치, 성능테스트, CI/CD)
-              - 플랫폼을 관리하는 admin service(Admin Builder)
+              - business service의 공통 개발을 지원하는 common service (인증, 접근제어, 알람, 파일관리, 검색엔진, config)
+              - 플랫폼을 운영하는 operation service (로깅, 모니터링, 배치, 성능테스트, CI/CD)
+              - 플랫폼을 관리하는 admin service (Admin Builder)
             - 분산된 business service의 중앙 관리하기 위해 인증서비스, 알람서비스, 접근제어서비스, config서비스 개발
             - application의 비즈니스 로직 외 플랫폼 요소는 컴포넌트화 하여 e-HR Framework로 구축
             - sso를 통한 인증 로직 표준화
