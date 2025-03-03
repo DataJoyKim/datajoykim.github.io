@@ -162,7 +162,7 @@ content:
             - 사용기술: Java, Spring Boot, RabbitMQ, Logstash, Filebeat, Mysql
             
       - layout: left
-        title: 신규 채용시스템 개발/운영
+        title: 신규 채용시스템 개발
         sub_title: 넷마블
         caption: 2022.12 ~ 2023.06
         link: https://career.netmarble.com
