@@ -86,6 +86,14 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: NHR플랫폼 보안성 강화
+        sub_title: 넷마블
+        caption: 2025.06 ~ 2025.12
+        description: | # this will include new lines to allow paragraphs
+            - 플랫폼 개인정보 암호화 작업
+            - 파일 암호화 기능 개발
+            
+      - layout: left
         title: 업무자동화서비스 구축
         sub_title: 넷마블
         caption: 2025.01 ~ 현재
