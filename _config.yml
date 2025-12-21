@@ -157,7 +157,7 @@ content:
             - 사용기술: Java, Spring, Mysql
          
       - layout: left
-        title: 중앙 로깅 시스템 구축
+        title: 중앙로깅시스템 구축
         sub_title: 넷마블
         caption: 2021.04 ~ 2021.12
         description: | # this will include new lines to allow paragraphs
