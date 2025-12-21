@@ -53,7 +53,7 @@ github_username: DataJoyKim
 # about_title: About Me (Use this to override about section title)
 about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-  Java & Spring 기반의 8년차 백엔드 플랫폼 개발자로<br>
+  Java & Spring 기반의 8년차 플랫폼 개발자로<br>
   넷마블에서 HR시스템의 백엔드 플랫폼 개발을 하고있습니다.<br>
   <br>
   복잡한 도메인 환경에서 지속 가능한 소프트웨어를 개발하기 위해 고민하는 개발자입니다.<br>
