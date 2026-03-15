@@ -86,7 +86,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: nHR플랫폼 보안성 강화
+        title: nHR 플랫폼 보안성 강화
         sub_title: 넷마블
         caption: 2025.06 ~ 2025.12
         description: | # this will include new lines to allow paragraphs
@@ -101,7 +101,7 @@ content:
             - Admin Builder에 Spring Quartz를 활용한 스케줄링 기능 및 LLM API를 연동 기능을 추가
             
       - layout: left
-        title: nHR플랫폼 안정화
+        title: nHR 플랫폼 안정화
         sub_title: 넷마블
         caption: 2024.03 ~ 2024.12
         description: | # this will include new lines to allow paragraphs
@@ -123,10 +123,10 @@ content:
               - UI 컴포넌트들을 드래그 앤 드롭하여 화면을 생성하고 워크플로우와 연동하여 데이터 바인딩
             - 권한은 조직별 권한, 직책별 권한, 역할별 권한 등 다양하고 복잡한 관리자 권한을 유연하게 대응 가능하도록 개발
             - 단순 CRUD 화면 개발 시 5분 이내 작업 가능. 복잡한 구조는 커스텀 개발 가능.
-            - 사용기술: Tomcat, Java, Spring, Mysql, JSP
+            - 사용기술: Tomcat, Java, Spring, Mysql, javascript
             
       - layout: left
-        title: nHR플랫폼 구축
+        title: nHR 플랫폼 구축
         sub_title: 넷마블
         caption: 2023.01 ~ 2024.03
         description: | # this will include new lines to allow paragraphs
