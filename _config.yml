@@ -214,17 +214,6 @@ content:
             - Artillery로 성능테스트를 통한 Tomcat Thread Pool와 DBCP 최적화
             - 배포 자동화 script 개발
             - 사용기술: Tomcat, Java, Spring, Oracle
-            
-      - layout: left
-        title: e-HR 운영 및 유지보수
-        sub_title: 넷마블
-        caption: 2017.06 ~ 2018.12
-        description: | # this will include new lines to allow paragraphs
-            - 외부 e-HR 솔루션 Framework으로 요구사항에 따른 개발 진행
-            - 연장근무 신청/결재/관리 개발
-            - 퇴근교통비 신청/결재/관리 개발
-            - 의료비 신청/결재/관리 개발
-            - 전자결재 모듈 개발
           
   - title: Skill
     layout: list
