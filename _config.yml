@@ -92,6 +92,7 @@ content:
         description: | # this will include new lines to allow paragraphs
             - 플랫폼 개인정보 암호화 작업
             - 파일 암호화 기능 개발
+            - Okta SSO 연동 작업
             
       - layout: left
         title: 업무자동화서비스 구축
