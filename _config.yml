@@ -101,7 +101,8 @@ content:
         description: | # this will include new lines to allow paragraphs
             - Spring Quartz를 활용한 Admin Builder 스케줄러 개발 
             - Vertex AI API를 활용한 Admin Builder 워크플로우 AI Agent 기능 개발
-            - 퇴근교통비 영수증 이미지 pdf 파일 AI Agent로 금액 추출하여 입력금액비교기능 제공하여 업무효율화
+            - 스케줄러로 워크플로우의 여러 기능을 조합하여 자동데이터처리, 자동알람서비스 제공
+            - AI Agent 기능으로 퇴근교통비 영수증 이미지 pdf 파일 금액 추출하여 입력금액비교기능 제공
       - layout: left
         title: nHR 플랫폼 안정화
         sub_title: 넷마블
