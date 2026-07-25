@@ -92,8 +92,9 @@ content:
         description: | # this will include new lines to allow paragraphs
             - 플랫폼 개인정보 암호화 작업
             - 파일 암호화 기능 개발
-            - Okta SSO 인증 개발 
-            
+            - 플랫폼에 여러 서비스가 공통인증 사용할수있도록 Okta SSO 인증 개발 
+            - 클로드코드 활용한 인사시스템 레거시를 Admin Builder로 변환하는 변환기 구축하여 전환 생산성을 80% 높임
+             
       - layout: left
         title: 업무자동화서비스 구축
         sub_title: 넷마블
