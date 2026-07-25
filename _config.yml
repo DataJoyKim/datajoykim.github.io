@@ -99,8 +99,9 @@ content:
         sub_title: 넷마블
         caption: 2025.01 ~ 현재
         description: | # this will include new lines to allow paragraphs
-            - Admin Builder에 Spring Quartz를 활용한 스케줄링 기능 및 LLM API를 연동 기능을 추가
-            
+            - Spring Quartz를 활용한 Admin Builder 스케줄러 개발 
+            - Vertex AI API를 활용한 Admin Builder 워크플로우 AI Agent 기능 개발
+            - 퇴근교통비 영수증 이미지 pdf 파일 AI Agent로 금액 추출하여 입력금액비교기능 제공하여 업무효율화
       - layout: left
         title: nHR 플랫폼 안정화
         sub_title: 넷마블
