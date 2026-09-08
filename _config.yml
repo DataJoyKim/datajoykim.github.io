@@ -118,11 +118,11 @@ content:
             - 플랫폼 운영 및 관리를 서비스 별로 운영, 관리 할 수 있는 통합된 운영 관리 페이지 개발
 
       - layout: left
-        title: Admin Builder 개발
+        title: Low-code 애플리케이션 플랫폼 개발
         sub_title: 넷마블
         caption: 2023.06 ~ 2024.01
         description: | # this will include new lines to allow paragraphs
-            - 관리자 페이지 개발 생산성을 높이고자 WEB 콘솔에서 워크플로우와 화면을 생성하는 application 개발
+            - 백오피스/업무 시스템 개발 생산성을 높이고자 WEB 콘솔에서 워크플로우와 화면을 생성하는 application 개발
               - Sql, 엔티티, Rest Client, 파일첨부, 알람전송 기능을 조합 후 인증과 권한을 설정하여 워크플로우 생성
               - UI 컴포넌트들을 드래그 앤 드롭하여 화면을 생성하고 워크플로우와 연동하여 데이터 바인딩
             - 권한은 조직별 권한, 직책별 권한, 역할별 권한 등 다양하고 복잡한 관리자 권한을 유연하게 대응 가능하도록 개발
